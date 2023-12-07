@@ -1,0 +1,188 @@
+
+/* ELEMENT POUR LA POLICE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;500&display=swap');/* police : Montserrat, Roboto, Open Sans */
+
+.fnt-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.fnt-roboto{
+    font-family: 'Roboto', sans-serif; 
+}
+.fnt-open{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fnt-w-300{
+    font-weight: normal;
+}
+.fnt-w-400{
+    font-weight: normal;
+}
+.fnt-w-500{
+    font-weight: 500;
+}
+.fnt-w-700{
+    font-weight: 700;
+}
+
+.fz-10{
+    font-size: 10px;
+}
+
+.fz-14{
+    font-size: 14px;
+}
+
+.fz-16{
+    font-size: 16px;
+}
+.fz-18{
+    font-size: 16px;
+}
+.fz-20{
+    font-size: 16px;
+}
+.fz-24{
+    font-size: 24px;
+}
+
+.fz-32{
+    font-size: 32px;
+}
+
+/**********************
+*   COULEURS DU THEME
+***********************/
+
+/* COULEUR TEXTE + TRANSITION */
+
+.txt-mauve{
+    color:#81256f;
+    transition: color .3s ease-in-out;
+}
+
+.txt-fuschia{
+    color:#d23778;
+    transition: color .3s ease-in-out;
+}
+
+.txt-jaune{
+    color:#f3901b;
+    transition: color .3s ease-in-out;
+}
+
+.trans-txt-mauve:hover{
+    color:#81256f;
+}
+.trans-txt-fuschia:hover{
+    color:#d23778;
+}
+.trans-txt-jaune:hover{
+    color:#f3901b;
+}
+
+/* COULEURS ARRIERE PLAN + TRANSITION */
+
+.bg-mauve{
+    background: #81256f;
+    transition: color .3s ease-in-out;
+}
+
+.bg-fuschia{
+    background: #d23778;
+    transition: color .3s ease-in-out;
+}
+
+.bg-jaune{
+    background: #f3901b;
+    transition: color .3s ease-in-out;
+}
+
+.bg-white{
+    background: #ffffff;
+    transition: color .3s ease-in-out;
+}
+
+.trans-bg-mauve:hover{
+    background: #81256f;
+    color: #fff;
+}
+
+.trans-bg-fuschia:hover{
+    background: #d23778;
+    color: #fff;
+}
+
+.trans-bg-jaune:hover{
+    background: #f3901b;
+}
+
+/* COMPOSANTS */
+
+.sub-heading-1{
+    font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .1em;
+}
+
+.heading{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    /* text-align: center; */
+    transition: color .3s ease-in-out;
+}
+
+.sub-heading{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    transition: color .3s ease-in-out;
+}
+
+.txt{
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.button-theme{
+    padding: 10px 50px;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background-color .3s ease-in-out;
+}
+
+/* DIMENSIONS */
+
+.v-padding{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.top-padding{
+    padding-top: 150px;
+}
+
+.bottom-padding{
+    padding-bottom: 150px;
+}
+
+.top-margin{
+    margin-top:150px;
+}
+
+.bottom-margin{
+    margin-top:150px;
+}
+
+
+
+
