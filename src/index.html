@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-sup.css">
+     <!--ce fichier css est uniquement pour le slide du main-->
+   <link rel="stylesheet" href="style-slide.css">
+   <link rel="stylesheet" href="style-menu.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+    
+    <header class="wrapper">
+        <div id="navbar" class="navbar">
+            <img src="img/logo.png" id="logo" alt="logo_association">
+            <nav>
+                <a href="abousUs.html">about</a>
+                <a href="contacts.html">contacts</a>
+                <a href="">inscription</a>
+                <!--le bouton qui est dans le menu-->
+                <button class="donate" id="don" type="" name="">DONATE NOW!</button>
+            </nav>
+        </div>
+
+        <section class="slide_ngo">
+            <!--la div diapo qui contient le slide elle a plusieurs div enfants qui comprennent chaque image et texte associé-->
+            <div class="diapo" >
+                <!--la div qui comprend touutes les div des images sans les fleches de navigation-->
+                <div class="elements">
+                    <!--a ce niveau l'explication se fera une seule fois car les autres div des slide 
+                    ont la meme disposition elle est comprise de l'image et d'une div de class captio qui comprend 
+                    le texte afferant a chque image et un bouton -->
+                    <div class="element">
+                        <img src="slides/s1.jpg" alt="stade ado ">
+                        <div class="caption" id="fondu">
+                            <h1>lorem ipsummmmmmmmmmmmm</h1>
+                            <br>
+                            <h2>association</h2>
+                            <br>
+                            <button type="" name="">become parent</button>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="slides/s2.jpg" alt="stade bouake ">
+                        <div class="caption" id="fondu">
+                            <h1>lorem ipsummmmmmmmmmmmm</h1>
+                            <br>
+                            <h2>association</h2>
+                            <br>
+                            <button type="" name="">become parent</button>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="slides/s3.jpg" alt="stade korhogo ">
+                        <div class="caption" id="fondu">
+                            <h1>lorem ipsummmmmmmmmmmmm</h1>
+                            <br>
+                            <h2>association</h2>
+                            <br>
+                            <button type="" name="">become parent</button>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="slides/s4.jpg"  height="" alt="stade sp ">
+                        <div class="caption" id="fondu">
+                            <h1>lorem ipsummmmmmmmmmmmm</h1>
+                            <br>
+                            <h2>association</h2>
+                            <br>
+                            <button type="" name="">become parent</button>
+                        </div>
+                    </div> 
+                </div>
+                <!--fleches pour changer les images-->
+                <i id="nav-gauche" class="las la-chevron-left"></i>
+                <i id="nav-droite" class="las la-chevron-right"></i>
+            </div>
+            <!--cette div contient les icones cliquable positionée sur le slide-->
+            <div class="don_categorie">
+                <a href="">
+                    <div class="don" style="background-color: rgba(128, 0, 128, 0.6);">
+                        <div><i class="fa fa-user fz-32"></i></div>
+                        <h3 class="pt-3">Titre Encart</h3>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="volontaire" style=" background-color: rgba(255, 192, 203, 0.6);">
+                        <div><i class="fa fa-user fz-32"></i></div>
+                        <h3 class="pt-3">Titre Encart</h3>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="sponsor" style="background-color: rgba(255, 165, 0, 0.6);">
+                        <div><i class="fa fa-user fz-32"></i></div>
+                        <h3 class="pt-3">Titre Encart</h3>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="foster" style="background-color: rgba(255, 255, 0, 0.6);">
+                        <div><i class="fa fa-user fz-32"></i></div>
+                        <h3 class="pt-3">Titre Encart</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--  STRUCTURE AFFAIRANT AU SLIDESHOW -->
+        <div id="landing-slider" class="carousel slide" data-ride="carousel">
+            <!-- INDICATEURS -->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#landing-slider" data-slide-to="0" aria-current="location"></li>
+                <li data-target="#landing-slider" data-slide-to="1"></li>
+            </ol>
+            <!-- DIFFERENTS ELEMENTS DU SLIDE -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Title</h5>
+                        <p>Text</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Title</h5>
+                        <p>Text</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COMMANDES DU SLIDE -->
+            <a class="carousel-control-prev" href="#landing-slider" data-slide="prev" role="button">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#landing-slider" data-slide="next" role="button">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="container">
+            <!-- ENCART TEXTE UNIQUE -->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div>
+                        <h3 class="sub-heading text-center txt-fuschia py-3">Sub Heading</h3>
+                        <p class="txt txt-mauve text-center fz-24">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ENCART GRAPHIQUE DOUBLE -->
+            <div class="row justify-content-between">
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h3 class="sub-heading  txt-fuschia py-3">Sub Heading</h3>
+                        <p class="txt fnt-roboto fnt-w-300 fz-16">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptas quia aliquid sapiente, illo saepe ipsam cumque, perferendis cum labore officiis dicta beatae.
+                        </p>
+                        <button class="btn button-theme fnt-montserrat bg-mauve trans-bg-fuschia" type="button"> Explore</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding-bottom: 650px; background: url('img/children1-1.jpg') no-repeat center center/contain;"></div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between" style="position: relative;top: -200px;">
+                <div class="col-12 col-md-6">
+                    <div style="padding-bottom: 650px; background: url('img/children-2.jpg') no-repeat center center/contain;"></div>
+                </div>
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h3 class="sub-heading  txt-fuschia py-3">Sub Heading</h3>
+                        <p class="txt fnt-roboto fnt-w-300 fz-16">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptas quia aliquid sapiente, illo saepe ipsam cumque, perferendis cum labore officiis dicta beatae.
+                        </p>
+                        <button class="btn button-theme fnt-montserrat bg-fuschia trans-bg-mauve" type="button"> Explore</button>
+                    </div>
+                </div>
+                
+            </div>            
+        </div>
+
+    </div>
+    <!-- ENCART GRAPHIQUE DONATION -->
+
+    <div class="wrapper">
+        <div class="container">
+            <!-- ENCART TEXTE UNIQUE -->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div>
+                        <h3 class="sub-heading text-center txt-fuschia py-3">Sub Heading</h3>
+                        <p class="txt txt-mauve text-center fz-24">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ENCART IMAGE TRANSPARENTE -->
+            <div class="row">
+                <div class="col-12">
+                    <div id="children"></div>
+                </div>
+            </div>
+            
+            <!-- ENCART DONS -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex bg-mauve">
+                        <div id="donation-img-1" class="col-12 col-md-3 px-0">
+                            <img class="img-fluid" src="img/donation.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-9 d-flex p-4">
+                            <div>
+                                <h3 class="sub-heading text-white text-left py-3">Sub Heading</h3>
+                                <p class="txt text-white text-left fz-18">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
+                                </p>
+                                <button class="btn button-theme fnt-montserrat bg-fuschia trans-bg-mauve" type="button"> Faire un don</button>
+                            </div>
+                            <div id="counter">
+                                <p>counter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="col-12 col-md-3 px-0">
+                    <div>
+                        <img class="img-fluid" src="img/donation-2.jpg" alt="">
+                    </div>
+                    <div class="bg-mauve p-3">
+                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                        <div class="d-flex justify-content-between text-white pb-3">
+                            <span>Donation</span><span>8%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="pt-3 text-white">
+                            <span> 1.500.000 FCFA restant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 px-0">
+                    <div>
+                        <img class="img-fluid" src="img/donation-3.jpg" alt="">
+                    </div>
+                    <div class="bg-fuschia p-3">
+                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                        <div class="d-flex justify-content-between text-white pb-3">
+                            <span>Donation</span><span>8%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-jaune text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="pt-3 text-white">
+                            <span> 1.500.000 FCFA restant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 px-0">
+                    <div>
+                        <img class="img-fluid" src="img/donation-4.jpg" alt="">
+                    </div>
+                    <div class="bg-jaune p-3">
+                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                        <div class="d-flex justify-content-between text-white pb-3">
+                            <span>Donation</span><span>8%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-mauve text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="pt-3 text-white">
+                            <span> 1.500.000 FCFA restant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 px-0">
+                    <div>
+                        <img class="img-fluid" src="img/donation-5.jpg" alt="">
+                    </div>
+                    <div class="bg-mauve p-3">
+                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                        <div class="d-flex justify-content-between text-white pb-3">
+                            <span>Donation</span><span>8%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="pt-3 text-white">
+                            <span> 1.500.000 FCFA restant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ENCART GRAPHIQUE FULL -->
+    <div class="wrapper top-margin">
+        <div class="container-fluid bg-fuschia">
+            <div id="temoignage" class="row">
+                <div class="col-12 col-md-6">
+
+                </div>
+                <div id="hero-image" class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <!-- ENCART TEXTE UNIQUE -->
+            <div id="impact" class="row justify-content-center">
+                <div class="col-12 col-md-6 py-5">
+                    <div>
+                        <h3 class="sub-heading text-center text-white py-3">Sub Heading</h3>
+                        <p class="txt text-white text-center fz-24">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center pb-5">
+                    <div class="col-12 col-md-6 col-lg-2 text-center">
+                        <h2 class="text-white"><i class="fa fa-check"></i></h2>
+                        <div class="text-white">Notre impact</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 text-center">
+                        <h2 class="text-white"><i class="fa fa-check"></i></h2>
+                        <div class="text-white">Notre impact</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 text-center">
+                        <h2 class="text-white"><i class="fa fa-check"></i></h2>
+                        <div class="text-white">Notre impact</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 text-center">
+                        <h2 class="text-white"><i class="fa fa-check"></i></h2>
+                        <div class="text-white">Notre impact</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ENCART RESUME ARTICLES -->
+    <div class="wrapper">
+        <div class="container">
+            <!-- ENCART TEXTE UNIQUE -->
+            <div class="row top-padding pb-5 justify-content-center">
+                <div class="col-12">
+                    <div>
+                        <h3 class="sub-heading text-center txt-fuschia py-3">Sub Heading</h3>
+                        <p class="txt txt-mauve text-center fz-24">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="col">
+                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-8 p-0">
+                        <h3 class="heading">heading</h3>
+                        <h4 class="sub-heading-1">subheading</h4>
+                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="col">
+                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-8 p-0">
+                        <h3 class="heading">heading</h3>
+                        <h4 class="sub-heading-1">subheading</h4>
+                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 bottom-padding">
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="col">
+                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-8 p-0">
+                        <h3 class="heading">heading</h3>
+                        <h4 class="sub-heading-1">subheading</h4>
+                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex">
+                    <div class="col">
+                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-8 p-0">
+                        <h3 class="heading">heading</h3>
+                        <h4 class="sub-heading-1">subheading</h4>
+                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="newsletter" class="wrapper">
+        <div class="container">
+            <div class="row justify-content-center align-content-center">
+                <div class="col-12">
+                    <div class="form-group row justify-content-center">
+                        <div class="col-auto">
+                            <h1>Subscribe to our Newsletter</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <form class="form-inline" method="get" action="">
+                        
+                        <div class="form-group row justify-content-center">
+                            
+                            <div class="col-auto">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">Text</button>
+                                        <!-- <span class="input-group-text" id="my-addon">Text</span> -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="wrapper fnt-roboto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="text-white pb-3 fnt-montserrat">Titre</h2>
+                    <ul class="list-unstyled">
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="text-white pb-3 fnt-montserrat">Titre</h2>
+                    <ul class="list-unstyled">
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="text-white pb-3 fnt-montserrat">Titre</h2>
+                    <ul class="list-unstyled">
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="text-white pb-3 fnt-montserrat">Titre</h2>
+                    <ul class="list-unstyled">
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                        <li> <a href="#" class="my-nav-link"> link </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <div id="backup">
+        <a href=""><i class="fa fa-caret"></i></a>
+    </div> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
