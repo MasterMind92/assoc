@@ -2,37 +2,10 @@
 <?php $this->load->view('partials/header-2')?>
 
 <main>
-    <!--section avec map et les div enfants-->
-    <section class="maps_contacts">
-        <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
-        <br>
-        <h1>Our Location and Filial Agency!</h1>
-        <br>
-        <div class="maps">
-        <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15891.45579217797!2d-3.9736114!3d5.2839152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ef1915a60cb1%3A0x34b965602153577a!2sDes%20Assiettes%20et%20du%20Vin!5e0!3m2!1sfr!2sci!4v1702207405906!5m2!1sfr!2sci"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="info_contacts">
-            <div class="faire_un_don" style="background-color: rgba(128, 0, 128, 0.6);">
-                <h5 style="color: white;">Donate</h5>
-                <br>
-                <h6 style="color: azure;">Lorem ipsum is pseudo-Latin text used in web design</h6>
 
-                <button class="" id="" type="" name="">DONATE NOW!</button>
-            </div>
-            <div class="envoi_mail" style=" background-color: rgba(255, 192, 203, 0.6);"></div>
-            <div class="lieu" style="background-color: rgba(255, 165, 0, 0.6);"></div>
-            <div class="contact" style="background-color: rgba(255, 255, 0, 0.6);"></div>
-        </div>
-        <!-- <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
-        <br>
-        <h1>Let`s Talk for Cooperation!</h1>
-        <br> -->
-        <div class="container-fluid">
+<div class="container">
             <div class="row justify-content-center align-items-center" style="height:50vh">
-                <div class="col-12 col-md-10 col-lg-8">
+                <div class="col-12 col-md-10 ">
                     <?php if( $this->session->flashdata('msg')):?>
                     <div class="alert alert-info text-center" role="alert">
                         <?php echo $this->session->flashdata('msg'); ?>
@@ -109,6 +82,35 @@
                 </div>
             </div>
         </div>
+    <!--section avec map et les div enfants-->
+    <section class="maps_contacts">
+        <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
+        <br>
+        <h1>Our Location and Filial Agency!</h1>
+        <br>
+        <div class="maps">
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15891.45579217797!2d-3.9736114!3d5.2839152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ef1915a60cb1%3A0x34b965602153577a!2sDes%20Assiettes%20et%20du%20Vin!5e0!3m2!1sfr!2sci!4v1702207405906!5m2!1sfr!2sci"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- <div class="info_contacts">
+            <div class="faire_un_don" style="background-color: rgba(128, 0, 128, 0.6);">
+                <h5 style="color: white;">Donate</h5>
+                <br>
+                <h6 style="color: azure;">Lorem ipsum is pseudo-Latin text used in web design</h6>
+
+                <button class="" id="" type="" name="">DONATE NOW!</button>
+            </div>
+            <div class="envoi_mail" style=" background-color: rgba(255, 192, 203, 0.6);"></div>
+            <div class="lieu" style="background-color: rgba(255, 165, 0, 0.6);"></div>
+            <div class="contact" style="background-color: rgba(255, 255, 0, 0.6);"></div>
+        </div> -->
+        <!-- <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
+        <br>
+        <h1>Let`s Talk for Cooperation!</h1>
+        <br> -->
+        
 
         
     </section>

@@ -32,10 +32,16 @@ class Welcome extends CI_Controller {
 		$this->load->view('accueil');
 	}
 
+	public function test()
+	{
+		$this->load->view('partials/head');
+		$this->load->view('partials/header-clean');
+		$this->load->view('partials/foot');
+	}
+
 	public function contact()
 	{
 		
-
 		// execution de la validation du formulaire
 		$this->contact_form_validation_request();
 		// si la validation ne se passe pas bien

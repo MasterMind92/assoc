@@ -27,9 +27,9 @@
             <div class="contact" style="background-color: rgba(255, 255, 0, 0.6);"></div>
         </div>
         <!-- BLOC FORMULAIRE DE CONTACT -->
-        <div class="wrapper container-fluid">
+        <div class="wrapper container">
             <div class="row justify-content-center my-5">
-                <div class="col-12 col-md-8 col-lg-6">
+                <div class="col-12 col-md-10">
 
                     <?php if( $this->session->flashdata('msg')):?>
                     <div class="alert alert-info text-center" role="alert">

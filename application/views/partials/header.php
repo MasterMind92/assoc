@@ -2,9 +2,9 @@
         <div id="navbar" class="navbar">
             <img src="<?php echo base_url();?>assets/img/logo.png" id="logo" alt="logo_association">
             <nav>
-                <a href="<?php echo base_url();?>a-propos">about</a>
-                <a href="<?php echo base_url();?>contact">contacts</a>
-                <a href="<?php echo base_url();?>inscription">inscription</a>
+                <a href="<?php echo base_url();?>a-propos">A Propos</a>
+                <a href="<?php echo base_url();?>contact">Contact</a>
+                <a href="<?php echo base_url();?>inscription">Inscription</a>
                 <!--le bouton qui est dans le menu-->
                 <button class="donate" id="don" type="" name="">DONATE NOW!</button>
             </nav>

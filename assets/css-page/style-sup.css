@@ -10,6 +10,62 @@
     /* background: url('img/donation.jpg') no-repeat center center/cover; */
 }
 
+/*  */
+
+#activity-resume div.container{
+    position: relative;
+}
+#activity-resume a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#activity-resume div.row{
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+}
+/* #landing-carousel div.carousel-caption{
+    position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/*  */
+
+@media screen and (min-width:1140px)  {
+    #header{
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1139px) {
+    #header{
+       position: relative;
+        background: #81256f;
+    }
+
+    #header .nav-link{
+        color: #fff;
+    }
+
+    button.navbar-toggler{
+        color: #fff;
+        background-color: #d23778;
+    }
+
+    button.navbar-toggler > span.navabar-toggler-icon{
+        color: #fff;
+        /* background-color: #d23778; */
+    }
+
+}
+
+
+
 #hero-image{
     padding-top: 300px;
     padding-bottom: 0px;
@@ -72,6 +128,13 @@
 #logo{
     width: 200px;
 }
+
+#image-secondary .wrapper{
+    background: url("http://assoc.test/assets/img/subscribe.jpg") fixed center center/cover;
+    padding: 150px 0px;
+}
+
+
 
 /* #backup::after{
     content: "";

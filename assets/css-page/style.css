@@ -97,6 +97,15 @@ main .btn{
     transition: color .3s ease-in-out;
 }
 
+
+.opacity-05{
+    opacity: 0.7;
+}
+
+.opacity-1{
+    opacity: 1;
+}
+
 .bg-fuschia{
     background: #d23778;
     transition: color .3s ease-in-out;

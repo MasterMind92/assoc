@@ -55,7 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route['contact'] = "Welcome/contact";
-$route['a-propos'] = "Welcome/apropos";
+$route['a-propos'] = "Welcome/propos";
 $route['inscription'] = "Welcome/inscription";
 
 // routes parametrable

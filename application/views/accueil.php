@@ -1,5 +1,5 @@
 <?php $this->load->view('partials/head')?>
-<?php $this->load->view('partials/header')?>
+<?php $this->load->view('partials/header-clean')?>
 
 <main id="main-content">
 
@@ -75,12 +75,12 @@
             
             <!-- ENCART DONS -->
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 px-0">
                     <div class="d-flex bg-mauve">
-                        <div id="donation-img-1" class="col-12 col-md-3 px-0">
+                        <div id="donation-img-1" class="col-12 col-md-6 col-lg-3 px-0">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation.jpg" alt="">
                         </div>
-                        <div class="col-12 col-md-9 d-flex p-4">
+                        <div class="col-12 col-md-6 col-lg-3 d-flex p-4">
                             <div>
                                 <h3 class="sub-heading text-white text-left py-3">Sub Heading</h3>
                                 <p class="txt text-white text-left fz-18">
@@ -88,15 +88,15 @@
                                 </p>
                                 <button class="btn button-theme fnt-montserrat bg-fuschia trans-bg-mauve" type="button"> Faire un don</button>
                             </div>
-                            <div id="counter">
+                            <div id="counter" class="d-md-none">
                                 <p>counter</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="d-flex">
-                <div class="col-12 col-md-3 px-0">
+            <div class="row ">
+                <div class="col-12 col-md-6 col-lg-3 px-0">
                     <div>
                         <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-2.jpg" alt="">
                     </div>
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-6 col-lg-3 px-0">
                     <div>
                         <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-3.jpg" alt="">
                     </div>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-6 col-lg-3 px-0">
                     <div>
                         <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-4.jpg" alt="">
                     </div>
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 px-0">
+                <div class="col-12 col-md-6 col-lg-3 px-0">
                     <div>
                         <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-5.jpg" alt="">
                     </div>
@@ -172,10 +172,10 @@
     <div class="wrapper top-margin">
         <div class="container-fluid bg-fuschia">
             <div id="temoignage" class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 d-md-none col-lg-6">
 
                 </div>
-                <div id="hero-image" class="col-12 col-md-6">
+                <div id="hero-image" class="col-12 col-lg-6">
 
                 </div>
             </div>
@@ -189,7 +189,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center pb-5">
+                <div class="col-12 row justify-content-center pb-5">
                     <div class="col-12 col-md-6 col-lg-2 text-center">
                         <h2 class="text-white"><i class="fa fa-check"></i></h2>
                         <div class="text-white">Notre impact</div>
@@ -226,50 +226,60 @@
                 </div>
             </div>
             <div class="row ">
-                <div class="col-12 col-md-6 d-flex">
-                    <div class="col">
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
-                    </div>
-                    <div class="col-12 col-lg-8 p-0">
-                        <h3 class="heading">heading</h3>
-                        <h4 class="sub-heading-1">subheading</h4>
-                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#">Read More</a>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                            <h3 class="heading">heading</h3>
+                            <h4 class="sub-heading-1">subheading</h4>
+                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#">Read More</a>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-12 col-md-6 d-flex">
-                    <div class="col">
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
-                    </div>
-                    <div class="col-12 col-lg-8 p-0">
-                        <h3 class="heading">heading</h3>
-                        <h4 class="sub-heading-1">subheading</h4>
-                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#">Read More</a>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                            <h3 class="heading">heading</h3>
+                            <h4 class="sub-heading-1">subheading</h4>
+                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row pt-5 bottom-padding">
-                <div class="col-12 col-md-6 d-flex">
-                    <div class="col">
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
-                    </div>
-                    <div class="col-12 col-lg-8 p-0">
-                        <h3 class="heading">heading</h3>
-                        <h4 class="sub-heading-1">subheading</h4>
-                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#">Read More</a>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                            <h3 class="heading">heading</h3>
+                            <h4 class="sub-heading-1">subheading</h4>
+                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#">Read More</a>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-12 col-md-6 d-flex">
-                    <div class="col">
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
-                    </div>
-                    <div class="col-12 col-lg-8 p-0">
-                        <h3 class="heading">heading</h3>
-                        <h4 class="sub-heading-1">subheading</h4>
-                        <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#">Read More</a>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                            <h3 class="heading">heading</h3>
+                            <h4 class="sub-heading-1">subheading</h4>
+                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
