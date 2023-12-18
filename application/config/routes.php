@@ -53,10 +53,28 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
+// Accueil
+$route['accueil'] = "Welcome/presentation";
+// Qui sommes-nous ?
+// Mot du president
+$route['mot-du-president'] = "Welcome/presentation";
+// 	Le bureau Executif
+$route['bureau-executif'] = "Welcome/bureau";
+// 	Les membres d'honneur
+$route['membres-d-honneur'] = "Welcome/membres";
+// Que faisons-nous?
+$route['que-faisons-nous'] = "Welcome/propos";
+// Nous rejoindre
+$route['nous-rejoindre'] = "Welcome/inscription";
+// Nos Projets
+// Realisations
+$route['realisations'] = "Welcome/realisations";
+// 	Calendrier
+$route['calendrier'] = "Welcome/calendrier";
+// Faites un don
+$route['faites-un-don'] = "Welcome/don";
+// page de contact
 $route['contact'] = "Welcome/contact";
-$route['a-propos'] = "Welcome/propos";
-$route['inscription'] = "Welcome/inscription";
 
 // routes parametrable
 // $route['reinitialisation/(:any)'] = "Welcome/verify_token/$1";

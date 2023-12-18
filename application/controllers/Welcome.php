@@ -27,11 +27,43 @@ class Welcome extends CI_Controller {
 		$this->load->model('User_model','user');
 	}
 
+	// page d'accueil
 	public function index()
 	{
 		$this->load->view('accueil');
 	}
 
+	// page Mot du president
+	public function presentation()
+	{
+		$this->load->view('accueil');
+	}
+
+	// page bureau executif
+	public function bureau()
+	{
+		$this->load->view('accueil');
+	}
+
+	// page membres d'honneur
+	public function membres()
+	{
+		$this->load->view('accueil');
+	}
+
+	// page realisations
+	public function realisations()
+	{
+		$this->load->view('accueil');
+	}
+
+	// page Calendrier
+	public function calendrier()
+	{
+		$this->load->view('accueil');
+	}
+
+	// 
 	public function test()
 	{
 		$this->load->view('partials/head');
@@ -39,33 +71,37 @@ class Welcome extends CI_Controller {
 		$this->load->view('partials/foot');
 	}
 
+	public function mail_template(){
+		$this->load->view('docs/mail-contact');
+	}
+
 	public function contact()
 	{
-		
 		// execution de la validation du formulaire
 		$this->contact_form_validation_request();
 		// si la validation ne se passe pas bien
 		if ($this->form_validation->run() == FALSE)
 		{
 			$this->load->view('contact');
-			
 		}
 		// si la validation se passe bien
 		else
 		{	
 			// recuperation des valeurs
-			$nom = $this->input->post('nom');
-			$prenoms = $this->input->post('prenoms');
-			$phone = $this->input->post('phone');
-			$email = $this->input->post('email');
-			$message = $this->input->post('message');
+			$data=[
+				"nom" => $this->input->post('nom'),
+				"prenoms" => $this->input->post('prenoms'),
+				"phone" => $this->input->post('phone'),
+				"email" => $this->input->post('email'),
+				"message" => $this->input->post('message'),
+			];
 
-			$mail = $this->load->view('docs/mail-contact',"",true);
+			$mail = $this->load->view('docs/mail-contact',['data'=>$data],true);
 			// $mail = "mail de prise de contact";
 
 			// var_dump($mail);exit();
 			// envoyer le mail
-			$response = mailjet("dalomarc92@gmail.com","Prise de contact",$mail,"MAD Dev");
+			$response = mailjet("dalomarc92@gmail.com","Prise de contact",$mail,"Association caritative");
 
 			// var_dump($response); exit();
 
@@ -81,11 +117,13 @@ class Welcome extends CI_Controller {
 		}
 	}
 
+	// que faisons nous
 	public function propos()
 	{
 		$this->load->view('accueil');
 	}
 
+	// nous rejoindre
 	public function inscription()
 	{
 

@@ -84,9 +84,9 @@
         </div>
     <!--section avec map et les div enfants-->
     <section class="maps_contacts">
-        <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
+    <h5 style="color: #f3901b;">Ouvrez votre coeur</h5>
         <br>
-        <h1>Our Location and Filial Agency!</h1>
+        <h1>Notre Siège Social</h1>
         <br>
         <div class="maps">
         <iframe
@@ -94,22 +94,34 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <!-- <div class="info_contacts">
-            <div class="faire_un_don" style="background-color: rgba(128, 0, 128, 0.6);">
-                <h5 style="color: white;">Donate</h5>
-                <br>
-                <h6 style="color: azure;">Lorem ipsum is pseudo-Latin text used in web design</h6>
-
-                <button class="" id="" type="" name="">DONATE NOW!</button>
+        <div class="info_contacts">
+            <div class="faire_un_don" style="background-color: rgba(128, 0, 128, 0.7)">
+                <span class="fz-24 text-white"><i class="fa fa-heart"></i></span>
+                <div>
+                    <a href="" class="text-white text-center">Faites un don</a>
+                </div>
+                <!-- <a class="donate" id="don" href="#" role="button">Faites un don</a> -->
             </div>
-            <div class="envoi_mail" style=" background-color: rgba(255, 192, 203, 0.6);"></div>
-            <div class="lieu" style="background-color: rgba(255, 165, 0, 0.6);"></div>
-            <div class="contact" style="background-color: rgba(255, 255, 0, 0.6);"></div>
-        </div> -->
-        <!-- <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
-        <br>
-        <h1>Let`s Talk for Cooperation!</h1>
-        <br> -->
+            <div class="envoi_mail bg-mauve" >
+                
+                <span class="fz-24 text-white"><i class="fa fa-phone"></i></span>
+                <div>
+                    <a href="#" class="text-white text-center">+225 07 50 50 05 04</a>
+                </div>
+            </div>
+            <div class="lieu bg-fuschia" >
+                <span class="fz-24 text-white"><i class="fa fa-envelope"></i></span>
+                <div>
+                    <a href="mailto:" class="text-white text-center">contact@assoadse.org</a>
+                </div>
+            </div>
+            <div class="contact bg-jaune" >
+                <span class="fz-24 text-white"><i class="fa fa-map-marker"></i></span>
+                <div>
+                    <a href="mailto:" class="text-white text-center">Abidjan, Riviera 3</a>
+                </div>
+            </div>
+        </div>
         
 
         

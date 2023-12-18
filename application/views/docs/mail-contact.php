@@ -4,86 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-mail</title>
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" >
-    <style>
-        .wrapper{
-            height:100vh;
-            width:100vw;
-            background: #dfe6e9;
-        }
-
-        .container >.row +.row >div.col-12{
-            background: #ffffff;
-        }
-    </style>
+    <!-- <link rel="stylesheet" href="<?php# #echo base_url();?>assets/css/bootstrap.min.css" > -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center py-5">LOGO</h1>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8 p-5">
-                    <div class="row py-3 border-bottom">
-                        <div class="col">
-                            <h3 class="py-3">Quelqu'un souhaite prendre contact avec vous</h3>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-md-3">
-                            <span> Nom & Prénoms : </span>
-                        </div>
-                        <div class="col-md-9">
-                            <span>
-                                Lorem, ipsum dolor.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-md-3">
-                            <span>Email : </span>
-                        </div>
-                        <div class="col-md-9">
-                            <span>
-                                Lorem, ipsum dolor.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-md-3">
-                            <span> Numero : </span>
-                        </div>
-                        <div class="col-md-9">
-                            <span>
-                                Lorem, ipsum dolor.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-3">
-                            <span> Message : </span>
-                        </div>
-                        <div class="col-md-9">
-                            <span>
-                                Lorem, ipsum dolor.
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-center">
-                    <h2 class="text-center pt-5">Nom Entreprise</h2>
-                    <span>Lorem ipsum dolor sit amet.</span> <br>
-                    <span>Lorem ipsum dolor sit amet.</span> <br>
-                    <span>Lorem ipsum dolor sit amet.</span> <br>
-                </div>
-            </div>
+<body style="background: #dfe6e9;font-family: 'Open Sans', sans-serif;">
+    <table style="width: 700px;margin:auto;">
+        <thead style="text-align: center;"> 
+            <tr>
+                <td colspan="2" style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;">
+                    <!-- <h1>LOGO</h1> -->
+                    <img src="<?php echo base_url()?>assets/img/logo.png" style="height:200px" alt="" srcset="">
+                </td>
+            </tr>
+        </thead>
+        
+        <tbody style="background: #ffffff;">
+            <tr>
+                <td colspan="2" style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;"><h3 style="text-align:center">Quelqu'un souhaite prendre contact avec vous</h3></td>
+            </tr>
+            <tr>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;"><span> Nom & Prénoms : </span></td>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;width:70%;" >
+                    <span>
+                        <?php echo $data['nom']." ".$data['prenoms'];?>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;">
+                    <span>Email : </span>
+                </td>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;width:70%;" >
+                    <span>
+                        <?php echo $data['email'];?>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;">
+                    <span> Numero : </span>
+                </td>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;width:70%;" >
+                    <span>
+                        <?php echo $data['phone'];?>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;">
+                    <span> Message : </span>
+                </td>
+                <td style="padding: 15px 20px 15px 20px;border-color: #eee none #eee none;width:70%;" >
+                    <span>
+                        <?php echo $data['message'];?>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot style="text-align: center;">
+            <tr>
+                <td colspan="2"><h2> Association </h2></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span>adressemail@association.com</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span>Abidjan, Riviera Bonoumin vers la tantie de porc au four</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span> 07 07 07 07 07 / 05 05 05 05 05</span></td>
+            </tr>
             
-        </div>
-    </div>
+        </tfoot>
+    </table>
+    
 </body>
 </html>

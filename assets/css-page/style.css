@@ -46,6 +46,10 @@
     font-size: 24px;
 }
 
+.fz-30{
+    font-size: 30px;
+}
+
 .fz-32{
     font-size: 32px;
 }
@@ -55,6 +59,14 @@
 ***********************/
 
 /* COULEUR TEXTE + TRANSITION */
+
+ul.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+ul.navbar-nav .nav-item .nav-link:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 .txt-mauve{
     color:#81256f;
@@ -80,6 +92,26 @@
 .trans-txt-jaune:hover{
     color:#f3901b;
 }
+
+.input-background{
+    padding: 10px;
+    background: #fff;
+    border-radius: 35px;
+}
+
+.input-background .form-control{
+    border: 0px transparent;
+}
+
+.input-background .form-control:focus{
+    border: 0px transparent;
+}
+
+.input-background button.btn{
+    border-radius: 27px !important; 
+}
+
+
 /* 
 main .btn{
     transition: all .5s ease-in-out;
@@ -98,7 +130,7 @@ main .btn{
 }
 
 
-.opacity-05{
+.opacity-07{
     opacity: 0.7;
 }
 

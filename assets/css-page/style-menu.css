@@ -102,6 +102,7 @@
    .donate:hover {
       background-color: rgb(217, 92, 112);
       color: white;
+      text-decoration: none;
    }
 
    /*les divs qui sont sur notre slide la div principale qui contient toute les autres div*/

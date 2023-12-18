@@ -2,11 +2,83 @@
 <?php $this->load->view('partials/header-2')?>
 
 <main>
+
+<div class="wrapper container">
+        <div class="row justify-content-center my-5">
+            <div class="col-12 col-md-10">
+
+                <?php if( $this->session->flashdata('msg')):?>
+                <div class="alert alert-info text-center" role="alert">
+                    <?php echo $this->session->flashdata('msg'); ?>
+                </div>
+                <?php endif;?>
+
+                <?php if(!empty(validation_errors())):?>
+                <div class="alert alert-warning text-center" role="alert">
+                    <?php echo validation_errors(); ?>
+                </div>
+                <?php endif;?>
+
+                <!-- DEBUT DU FORMULAIRE -->
+                <form method="post" action="<?php echo site_url('Welcome/contact');?>">
+
+                    <legend class="text-center py-3">
+                        <h5 style="color: #f3901b;">Ouvrez vos coeurs</h5>
+                        <h1>Contactez-nous</h1>
+                        <!-- <h2 class=" py-3">Contactez-nous</h2> -->
+                    </legend>
+
+                    <!-- SECTION NOM ET PRENOMS -->
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="input-nom">Nom</label>
+                            <input id="input-nom" class="form-control" type="text" required name="nom" value="">
+                        </div>
+                        
+                        <div class="col">
+                            <label for="input-prenoms">Prénoms</label>
+                            <input id="input-prenoms" class="form-control" type="text" required name="prenoms" value="">
+                        </div>
+                    </div>
+
+                    <!-- SECTION NUMERO DE TELEPHONE -->
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="input-phone">Téléphone</label>
+                            <input id="input-phone" class="form-control" type="text" required name="phone" value="">
+                        </div>
+                        
+                        <div class="col">
+                            <label for="input-mail">Email</label>
+                            <input id="input-mail" class="form-control" type="email" required name="email" value="">
+                        </div>
+                    </div>
+
+                    <!-- SECTION MESSAGE -->
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" name="message" rows="3"></textarea>
+                    </div>
+
+                    <!-- SECTION BOUTON DE VALIDATION -->
+                    <div class="form-group row">
+                        <div class="col">
+                            <button class="btn btn-success btn-block" type="reset">Réinitialiser</button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary btn-block" type="submit">Valider</button>
+                        </div>
+                    </div>
+                </form>  
+                <!-- FIN DU FORMULAIRE -->
+            </div>
+        </div>
+    </div>
     <!--section avec map et les div enfants-->
     <section class="maps_contacts">
-        <h5 style="color: #f3901b;">OPEN YOUR HEART & HOME</h5>
+        <h5 style="color: #f3901b;">Ouvrez votre coeur</h5>
         <br>
-        <h1>Our Location and Filial Agency!</h1>
+        <h1>Notre Siège Social</h1>
         <br>
         <div class="maps">
         <iframe
@@ -15,89 +87,35 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="info_contacts">
-            <div class="faire_un_don" style="background-color: rgba(128, 0, 128, 0.6);">
-                <h5 style="color: white;">Donate</h5>
-                <br>
-                <h6 style="color: azure;">Lorem ipsum is pseudo-Latin text used in web design</h6>
-
-                <button class="" id="" type="" name="">DONATE NOW!</button>
+            <div class="faire_un_don" style="background-color: rgba(128, 0, 128, 0.7)">
+                <span class="fz-24 text-white"><i class="fa fa-heart"></i></span>
+                <div>
+                    <a href="" class="text-white text-center">Faites un don</a>
+                </div>
+                <!-- <a class="donate" id="don" href="#" role="button">Faites un don</a> -->
             </div>
-            <div class="envoi_mail" style=" background-color: rgba(255, 192, 203, 0.6);"></div>
-            <div class="lieu" style="background-color: rgba(255, 165, 0, 0.6);"></div>
-            <div class="contact" style="background-color: rgba(255, 255, 0, 0.6);"></div>
-        </div>
-        <!-- BLOC FORMULAIRE DE CONTACT -->
-        <div class="wrapper container">
-            <div class="row justify-content-center my-5">
-                <div class="col-12 col-md-10">
-
-                    <?php if( $this->session->flashdata('msg')):?>
-                    <div class="alert alert-info text-center" role="alert">
-                        <?php echo $this->session->flashdata('msg'); ?>
-                    </div>
-                    <?php endif;?>
-
-                    <?php if(!empty(validation_errors())):?>
-                    <div class="alert alert-warning text-center" role="alert">
-                        <?php echo validation_errors(); ?>
-                    </div>
-                    <?php endif;?>
-
-                    <!-- DEBUT DU FORMULAIRE -->
-                    <form method="post" action="<?php echo site_url('Welcome/contact');?>">
-
-                        <legend class="text-center py-3">
-                            <h5 style="color: #f3901b;">Ouvrez vos coeurs</h5>
-                            <h1>Contactez-nous</h1>
-                            <!-- <h2 class=" py-3">Contactez-nous</h2> -->
-                        </legend>
-
-                        <!-- SECTION NOM ET PRENOMS -->
-                        <div class="form-group row">
-                            <div class="col">
-                                <label for="input-nom">Nom</label>
-                                <input id="input-nom" class="form-control" type="text" required name="nom" value="<?php echo set_value('nom'); ?>">
-                            </div>
-                            
-                            <div class="col">
-                                <label for="input-prenoms">Prénoms</label>
-                                <input id="input-prenoms" class="form-control" type="text" required name="prenoms" value="<?php echo set_value('prenoms'); ?>">
-                            </div>
-                        </div>
-
-                        <!-- SECTION NUMERO DE TELEPHONE -->
-                        <div class="form-group row">
-                            <div class="col">
-                                <label for="input-phone">Téléphone</label>
-                                <input id="input-phone" class="form-control" type="text" required name="phone" value="<?php echo set_value('phone'); ?>">
-                            </div>
-                            
-                            <div class="col">
-                                <label for="input-mail">Email</label>
-                                <input id="input-mail" class="form-control" type="email" required name="email" value="<?php echo set_value('email'); ?>">
-                            </div>
-                        </div>
-
-                        <!-- SECTION MESSAGE -->
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" class="form-control" name="message" rows="3"></textarea>
-                        </div>
-
-                        <!-- SECTION BOUTON DE VALIDATION -->
-                        <div class="form-group row">
-                            <div class="col">
-                                <button class="btn btn-success btn-block" type="reset">Réinitialiser</button>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-primary btn-block" type="submit">Valider</button>
-                            </div>
-                        </div>
-                    </form>  
-                    <!-- FIN DU FORMULAIRE -->
+            <div class="envoi_mail bg-mauve" >
+                
+                <span class="fz-24 text-white"><i class="fa fa-phone"></i></span>
+                <div>
+                    <a href="#" class="text-white text-center">+225 07 50 50 05 04</a>
+                </div>
+            </div>
+            <div class="lieu bg-fuschia" >
+                <span class="fz-24 text-white"><i class="fa fa-envelope"></i></span>
+                <div>
+                    <a href="mailto:" class="text-white text-center">contact@assoadse.org</a>
+                </div>
+            </div>
+            <div class="contact bg-jaune" >
+                <span class="fz-24 text-white"><i class="fa fa-map-marker"></i></span>
+                <div>
+                    <a href="mailto:" class="text-white text-center">Abidjan, Riviera 3</a>
                 </div>
             </div>
         </div>
+        <!-- BLOC FORMULAIRE DE CONTACT -->
+        
 
         <!-- <form>
             <div>

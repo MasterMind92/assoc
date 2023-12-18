@@ -298,15 +298,14 @@
                 </div>
                 <div class="col-auto">
                     <form class="form-inline" method="get" action="">
-                        
                         <div class="form-group row justify-content-center">
-                            
                             <div class="col-auto">
-                                <div class="input-group">
-                                    <input class="form-control" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button">Text</button>
-                                        <!-- <span class="input-group-text" id="my-addon">Text</span> -->
+                                <div class="input-background">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">Souscrire</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
