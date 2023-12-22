@@ -21,33 +21,33 @@
                         <div class="dropdown">
                             <a  id="dropdown-1" class="nav-link dropdown-toggle" href="<?php echo base_url();?>" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Qui sommes-nous ?</a>
                            <div class="dropdown-menu" aria-labelledby="dropdown-1">
-                                <a class="dropdown-item" href="#">Mot du Président</a>
-                                <a class="dropdown-item" href="#">Le bureau exécutif</a>
-                                <a class="dropdown-item" href="#">Les membres d'honneur</a>
+                                <a class="dropdown-item" href="<?php echo base_url();?>mot-du-president">Mot du Président</a>
+                                <a class="dropdown-item" href="<?php echo base_url();?>bureau-executif">Le bureau exécutif</a>
+                                <a class="dropdown-item" href="<?php echo base_url();?>membres-d-honneur">Les membres d'honneur</a>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="<?php echo base_url();?>a-propos">Que faisons nous?</a>
+                        <a class="nav-link" href="<?php echo base_url();?>que-faisons-nous">Que faisons nous?</a>
                     </li>
                     <li class="nav-item text-center">
                         <div class="dropdown">
                             <a  id="dropdown-2" class="nav-link dropdown-toggle" href="<?php echo base_url();?>nos-projets" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Nos Projets</a>
                             <!-- <button  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Text</button> -->
                             <div class="dropdown-menu" aria-labelledby="dropdown-2">
-                                <a class="dropdown-item" href="#">Réalisations</a>
-                                <a class="dropdown-item" href="#">Calendrier</a>
+                                <a class="dropdown-item" href="<?php echo base_url();?>realisations">Réalisations</a>
+                                <a class="dropdown-item" href="<?php echo base_url();?>calendrier">Calendrier</a>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="<?php echo base_url();?>inscription">Nous rejoindre</a>
+                        <a class="nav-link" href="<?php echo base_url();?>nous-rejoindre">Nous rejoindre</a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="<?php echo base_url();?>contact">Contact</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="donate" id="don" href="#" role="button">Faites un don</a>
+                        <a class="donate d-block d-lg-none d-xl-block" id="don" href="<?php echo base_url();?>faites-un-don" role="button">Faites un don</a>
                     <!-- <button class="donate" id="don" type="" name=""></button> -->
                     </li>
                 </ul>
@@ -60,7 +60,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12">
-                <!-- <img src="<?php echo base_url();?>assets/img/subscribe.jpg"  alt="" srcset=""> -->
+                <!-- <img src="<?php #echo base_url();?>assets/img/subscribe.jpg"  alt="" srcset=""> -->
             </div>
         </div>
     </div>

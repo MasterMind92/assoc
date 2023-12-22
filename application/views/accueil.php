@@ -95,75 +95,130 @@
                     </div>
                 </div>
             </div>
-            <div class="row ">
-                <div class="col-12 col-md-6 col-lg-3 px-0">
-                    <div>
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-2.jpg" alt="">
-                    </div>
-                    <div class="bg-mauve p-3">
-                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
-                        <div class="d-flex justify-content-between text-white pb-3">
-                            <span>Donation</span><span>8%</span>
+            <div class="custom-wrapper">
+                <!-- <i id="left" class="fa fa-angle-left"></i> -->
+                <ul class="custom-carousel">
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-2.jpg" alt="">
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="bg-mauve p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
                         </div>
-                        <div class="pt-3 text-white">
-                            <span> 1.500.000 FCFA restant</span>
+                    </li>
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-3.jpg" alt="">
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 px-0">
-                    <div>
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-3.jpg" alt="">
-                    </div>
-                    <div class="bg-fuschia p-3">
-                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
-                        <div class="d-flex justify-content-between text-white pb-3">
-                            <span>Donation</span><span>8%</span>
+                        <div class="bg-fuschia p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-jaune text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </li>
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-4.jpg" alt="">
                         </div>
-                        <div class="pt-3 text-white">
-                            <span> 1.500.000 FCFA restant</span>
+                        <div class="bg-jaune p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-mauve text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 px-0">
-                    <div>
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-4.jpg" alt="">
-                    </div>
-                    <div class="bg-jaune p-3">
-                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
-                        <div class="d-flex justify-content-between text-white pb-3">
-                            <span>Donation</span><span>8%</span>
+                    </li>
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-5.jpg" alt="">
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-mauve text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="bg-mauve p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
                         </div>
-                        <div class="pt-3 text-white">
-                            <span> 1.500.000 FCFA restant</span>
+                    </li>
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-2.jpg" alt="">
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 px-0">
-                    <div>
-                        <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-5.jpg" alt="">
-                    </div>
-                    <div class="bg-mauve p-3">
-                        <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
-                        <div class="d-flex justify-content-between text-white pb-3">
-                            <span>Donation</span><span>8%</span>
+                        <div class="bg-fuschia p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </li>
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-3.jpg" alt="">
                         </div>
-                        <div class="pt-3 text-white">
-                            <span> 1.500.000 FCFA restant</span>
+                        <div class="bg-jaune p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                    <li class="custom-card">
+                        <div class="theme-hover">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-4.jpg" alt="">
+                        </div>
+                        <div class="bg-mauve p-3 w-100">
+                            <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
+                            <div class="d-flex justify-content-between text-white pb-3">
+                                <span class="text-white">Donation</span><span class="text-white">8%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="pt-3 text-white">
+                                <span class="text-white"> 1.500.000 FCFA restant</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- <i id="right" class="fa fa-angle-right"></i> -->
             </div>
         </div>
     </div>
@@ -292,31 +347,25 @@
                 <div class="col-12">
                     <div class="form-group row justify-content-center">
                         <div class="col-auto">
-                            <h1>Subscribe to our Newsletter</h1>
+                            <h1 class="text-center text-white">Souscrivez a notre newsletter</h1>
                         </div>
                     </div>
                 </div>
-                <div class="col-auto">
+                <div class="col-12 col-md-8">
                     <form class="form-inline" method="get" action="">
-                        <div class="form-group row justify-content-center">
-                            <div class="col-auto">
-                                <div class="input-background">
-                                    <div class="input-group">
-                                        <input class="form-control" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="button">Souscrire</button>
-                                        </div>
-                                    </div>
+                        <div class="form-group row justify-content-center w-100">
+                            <div class="col-12">
+                                <div id="custom-input">
+                                    <input class="input-background" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon">
+                                    <button class="btn btn-primary" type="button">Souscrire</button>
                                 </div>
                             </div>
-                            
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
 </main>
 
 <?php $this->load->view('partials/footer')?>

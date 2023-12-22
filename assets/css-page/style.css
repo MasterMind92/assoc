@@ -94,21 +94,23 @@ ul.navbar-nav .nav-item .nav-link:hover{
 }
 
 .input-background{
-    padding: 10px;
+    padding: 20px;
     background: #fff;
-    border-radius: 35px;
+    border-radius: 50px;
+    
 }
 
-.input-background .form-control{
-    border: 0px transparent;
+#custom-input{
+    position: relative;
 }
 
-.input-background .form-control:focus{
-    border: 0px transparent;
-}
-
-.input-background button.btn{
-    border-radius: 27px !important; 
+#custom-input button.btn{
+    position: absolute; 
+    right: 10px;
+    top: 11px;
+    border-radius: 30px;
+    padding: 9px 10px;
+    width: 15vw;
 }
 
 

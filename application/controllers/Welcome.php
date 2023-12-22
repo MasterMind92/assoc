@@ -33,6 +33,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('accueil');
 	}
 
+	public function test(){
+		$this->load->view('coming-soon');
+	}
+
 	// page Mot du president
 	public function presentation()
 	{
@@ -63,12 +67,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('accueil');
 	}
 
-	// 
-	public function test()
+	// page Calendrier
+	public function don()
 	{
-		$this->load->view('partials/head');
-		$this->load->view('partials/header-clean');
-		$this->load->view('partials/foot');
+		$this->load->view('accueil');
 	}
 
 	public function mail_template(){

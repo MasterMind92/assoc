@@ -3,85 +3,79 @@
 
 <main>
 
-<div class="container">
-            <div class="row justify-content-center align-items-center" style="height:50vh">
-                <div class="col-12 col-md-10 ">
-                    <?php if( $this->session->flashdata('msg')):?>
-                    <div class="alert alert-info text-center" role="alert">
-                        <?php echo $this->session->flashdata('msg'); ?>
-                    </div>
-                    <?php endif;?>
-
-                    <?php if(!empty(validation_errors())):?>
-                    <div class="alert alert-warning text-center" role="alert">
-                        <?php echo validation_errors(); ?>
-                    </div>
-                    <?php endif;?>
-                    <!-- <div class="d-flex justify-content-between">
-                        <a href="<?php #echo site_url('userctrl/')?> " class="btn btn-primary" type="button">Revenir aux utilisateurs</a>
-                        <a href="<?php #echo site_url('userctrl/import')?> " class="btn btn-info" type="button">Importer des utilisateurs</a>
-                        <a href="#" class="btn btn-primary" type="button">Text</a>
-                    </div> -->
-
-                    <?php echo form_open('welcome/inscription'); ?>
-                        <legend class="text-center py-3">
-                            <h5 style="color: #f3901b;">Ouvrez vos coeurs</h5>
-                            <h1>Inscrivez-vous</h1>
-                            <!-- <h2 class=" py-3">Contactez-nous</h2> -->
-                        </legend>
-                        <div class="form-group row">
-                            <div class="col">
-                                <label for="nom-input">Nom</label>
-                                <input type="text" name="nom" id="nom-input" class="form-control"  value="" placeholder="Entrez votre nom" required>
-                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                            </div>
-                            <div class="col">
-                                <label for="prenoms-input">Prénoms</label>
-                                <input type="text" name="prenoms" id="prenoms-input" class="form-control" value=""  placeholder="Entrez vos prénoms" required>
-                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col">
-                                <label for="adresse-input">Adresse</label>
-                                <input type="text" name="adresse" id="adresse-input" class="form-control" value=""  placeholder="Entrez votre adresse" required>
-                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                            </div>
-
-                            <div class="col">
-                                <label for="date_nais-input">Date de naissance</label>
-                                <input type="date" name="date_nais" id="date_nais-input" class="form-control" value="" max="2005-12-01"  placeholder="Date de naissance" required>
-                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" id="email-input" class="form-control" value=""  placeholder="Entrez votre e-mail" required>
-                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                            </div>
-
-                            <div class="col">
-                                <label for="phone">Téléphone</label>
-                                <input type="text" name="phone" id="phone-input" class="form-control" value=""  placeholder="Entrez votre téléphone" required>
-                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
-                            </div>
-                        </div>
-
-                        <div class="form-group row justify-content-end">
-                            <div class="col-12 col-md-6">
-                                <button class="btn btn-success btn-block" type="reset">Reinitialiser</button>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <button class="btn btn-primary btn-block" type="submit">Valider</button>
-                            </div>
-                        </div>
-                    </form>
-
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height:50vh">
+            <div class="col-12 col-md-10 pt-5">
+                <?php if( $this->session->flashdata('msg')):?>
+                <div class="alert alert-info text-center" role="alert">
+                    <?php echo $this->session->flashdata('msg'); ?>
                 </div>
+                <?php endif;?>
+
+                <?php if(!empty(validation_errors())):?>
+                <div class="alert alert-warning text-center" role="alert">
+                    <?php echo validation_errors(); ?>
+                </div>
+                <?php endif;?>
+
+                <?php echo form_open('welcome/inscription'); ?>
+                    <legend class="text-center py-3">
+                        <h5 style="color: #f3901b;">Ouvrez vos coeurs</h5>
+                        <h1>Inscrivez-vous</h1>
+                        <!-- <h2 class=" py-3">Contactez-nous</h2> -->
+                    </legend>
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="nom-input">Nom</label>
+                            <input type="text" name="nom" id="nom-input" class="form-control"  value="" placeholder="Entrez votre nom" required>
+                            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                        </div>
+                        <div class="col">
+                            <label for="prenoms-input">Prénoms</label>
+                            <input type="text" name="prenoms" id="prenoms-input" class="form-control" value=""  placeholder="Entrez vos prénoms" required>
+                            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="adresse-input">Adresse</label>
+                            <input type="text" name="adresse" id="adresse-input" class="form-control" value=""  placeholder="Entrez votre adresse" required>
+                            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                        </div>
+
+                        <div class="col">
+                            <label for="date_nais-input">Date de naissance</label>
+                            <input type="date" name="date_nais" id="date_nais-input" class="form-control" value="" max="2005-12-01"  placeholder="Date de naissance" required>
+                            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email-input" class="form-control" value=""  placeholder="Entrez votre e-mail" required>
+                            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                        </div>
+
+                        <div class="col">
+                            <label for="phone">Téléphone</label>
+                            <input type="text" name="phone" id="phone-input" class="form-control" value=""  placeholder="Entrez votre téléphone" required>
+                            <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                        </div>
+                    </div>
+
+                    <div class="form-group row justify-content-end">
+                        <div class="col-12 col-md-6">
+                            <button class="btn btn-success btn-block" type="reset">Reinitialiser</button>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <button class="btn btn-primary btn-block" type="submit">Valider</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
     <!--section avec map et les div enfants-->
     <section class="maps_contacts">
     <h5 style="color: #f3901b;">Ouvrez votre coeur</h5>

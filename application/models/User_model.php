@@ -54,7 +54,7 @@ class User_model extends CI_Model {
         $this->db->set('created_at', date('Y-m-d h:i:s'));
         // $this->db->set('updated_at', date('Y-m-d h:i:s'));
 
-        return $this->db->insert('users');
+        return $this->db->insert('membres');
     }
 
 
