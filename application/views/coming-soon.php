@@ -1,15 +1,14 @@
 <?php $this->load->view('partials/head')?>
-
 <main>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row" style="height:100vh;">
                 <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center">
                     <!-- TEXT COMING SOON -->
-                    <div class="text-center">
+                    <div class="text-center ">
                         <h1>Site en Construction</h1>
-                        <h3>Ouvrez votre coeur <i class="fa fa-heart"></i></h3>
-                        <div><img src="<?php echo base_url();?>assets/img/logo.png" id="logo" alt="logo_association"></div>
+                        <h3>Ouvrez votre coeur <i class="fa fa-heart txt-jaune"></i></h3>
+                        <div><img src="<?php echo base_url();?>assets/img/adse_logo.png" id="logo" alt="logo_association"></div>
                     </div>
 
                     <div class="d-flex align-self-end">
@@ -19,9 +18,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center">
+                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center bg-bleu text-white">
                     <!-- FORMULAIRE DE CONTACT -->
-                    <div class="row justify-content-center my-5">
+                    <div class="row justify-content-center my-5 w-100">
                         <div class="col-12 col-md-10">
                             <?php if( $this->session->flashdata('msg')):?>
                             <div class="alert alert-info text-center" role="alert">
@@ -79,10 +78,10 @@
                                 <!-- SECTION BOUTON DE VALIDATION -->
                                 <div class="form-group row">
                                     <div class="col">
-                                        <button class="btn btn-success btn-block" type="reset">Réinitialiser</button>
+                                        <button class="btn btn-success btn-block btn-radius" type="reset">Réinitialiser</button>
                                     </div>
                                     <div class="col">
-                                        <button class="btn btn-primary btn-block" type="submit">Valider</button>
+                                        <button class="btn btn-primary btn-block btn-radius" type="submit">Valider</button>
                                     </div>
                                 </div>
                             </form>  

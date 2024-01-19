@@ -83,6 +83,11 @@
     padding: 150px 0px;
 }
 
+#newsletter-2{
+    background: linear-gradient(90deg, rgba(129,37,111,1) 0%, rgba(129,37,111,1) 30%, rgba(210,55,120,1) 100%);
+    padding: 100px 0px;
+}
+
 #footer{
     padding: 100px 0;
     background: #382a41;
@@ -126,38 +131,6 @@
     padding: 150px 0px;
 }
 
-/* .theme-hover:before{
-    transition: all .5s ease-in-out;
-    content: "";
-    height: 52.6%;
-    width: 100%;
-    background-color: #d23778;
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-} */
-
-/* .theme-hover{
-    overflow: hidden;
-}
-
-.theme-hover img{
-    transition: all .5s ease-in-out;
-} */
-
-/* .theme-hover:hover img{
-    transform: scale(1.2,1.2);
-} */
-
-/* .theme-hover:hover{
-    content: "";
-    height: 52.6%;
-    width: 100%;
-    background-color: #d23778;
-    opacity: 0.6;
-    position: absolute;
-    z-index: 1;
-} */
 
 
 

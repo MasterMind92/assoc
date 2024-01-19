@@ -344,7 +344,7 @@
     <div id="newsletter" class="wrapper">
         <div class="container">
             <div class="row justify-content-center align-content-center">
-                <div class="col-12">
+                <div class="col-12">3
                     <div class="form-group row justify-content-center">
                         <div class="col-auto">
                             <h1 class="text-center text-white">Souscrivez a notre newsletter</h1>

@@ -1,8 +1,9 @@
 <?php $this->load->view('partials/head')?>
 <?php $this->load->view('partials/header-2')?>
 
+
 <main>
-<?php $this->load->view('content/qui_sommes_nous')?>
+    <?php $this->load->view('content/bureau_executif')?>
 </main>
 
 <?php $this->load->view('partials/footer-2')?>

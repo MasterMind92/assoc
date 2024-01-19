@@ -40,37 +40,37 @@ class Welcome extends CI_Controller {
 	// page Mot du president
 	public function presentation()
 	{
-		$this->load->view('accueil');
+		$this->load->view('president',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	// page bureau executif
 	public function bureau()
 	{
-		$this->load->view('accueil');
+		$this->load->view('bureau',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	// page membres d'honneur
 	public function membres()
 	{
-		$this->load->view('accueil');
+		$this->load->view('membres',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	// page realisations
 	public function realisations()
 	{
-		$this->load->view('accueil');
+		$this->load->view('realisations',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	// page Calendrier
 	public function calendrier()
 	{
-		$this->load->view('accueil');
+		$this->load->view('calendrier',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	// page Calendrier
 	public function don()
 	{
-		$this->load->view('accueil');
+		$this->load->view('don',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	public function mail_template(){
@@ -122,7 +122,7 @@ class Welcome extends CI_Controller {
 	// que faisons nous
 	public function propos()
 	{
-		$this->load->view('accueil');
+		$this->load->view('about',['img'=>"/assets/img/subscribe.jpg"]);
 	}
 
 	// nous rejoindre
@@ -134,7 +134,7 @@ class Welcome extends CI_Controller {
 		 // si la validation ne se passe pas bien
 		if ($this->form_validation->run() == FALSE)
 		{
-			$this->load->view('inscription');
+			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg"]);
 		}
 		else
 		{	
@@ -159,7 +159,7 @@ class Welcome extends CI_Controller {
 				$this->session->set_flashdata('msg', 'Echec enregistrement utilisateur');
 			}
 
-			$this->load->view('inscription');
+			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg"]);
 			
 			// si c'est bon on le connecte
 			// page de succes

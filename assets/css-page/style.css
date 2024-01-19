@@ -37,10 +37,10 @@
     font-size: 16px;
 }
 .fz-18{
-    font-size: 16px;
+    font-size: 18px;
 }
 .fz-20{
-    font-size: 16px;
+    font-size: 20px;
 }
 .fz-24{
     font-size: 24px;
@@ -70,6 +70,11 @@ ul.navbar-nav .nav-item .nav-link:hover{
 
 .txt-mauve{
     color:#81256f;
+    transition: color .3s ease-in-out;
+}
+
+.txt-bleu{
+    color:#3871c1;
     transition: color .3s ease-in-out;
 }
 
@@ -113,6 +118,10 @@ ul.navbar-nav .nav-item .nav-link:hover{
     width: 15vw;
 }
 
+.btn-radius{
+    border-radius: 25px;
+}
+
 
 /* 
 main .btn{
@@ -126,11 +135,6 @@ main .btn{
 
 /* COULEURS ARRIERE PLAN + TRANSITION */
 
-.bg-mauve{
-    background: #81256f;
-    transition: color .3s ease-in-out;
-}
-
 
 .opacity-07{
     opacity: 0.7;
@@ -138,6 +142,17 @@ main .btn{
 
 .opacity-1{
     opacity: 1;
+}
+/* #3871c1 */
+
+.bg-mauve{
+    background: #81256f;
+    transition: color .3s ease-in-out;
+}
+
+.bg-bleu{
+    background: #3871c1;
+    transition: color .3s ease-in-out;
 }
 
 .bg-fuschia{
@@ -153,6 +168,11 @@ main .btn{
 .bg-white{
     background: #ffffff;
     transition: color .3s ease-in-out;
+}
+
+.trans-bg-bleu:hover{
+    background: #3871c1;
+    color: #fff;
 }
 
 .trans-bg-mauve:hover{
@@ -173,13 +193,13 @@ main .btn{
 
 .sub-heading-1{
     font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: .1em;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
 }
 
 .heading{
