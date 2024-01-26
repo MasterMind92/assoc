@@ -78,8 +78,8 @@ ul.navbar-nav .nav-item .nav-link:hover{
     transition: color .3s ease-in-out;
 }
 
-.txt-fuschia{
-    color:#d23778;
+.txt-rouge{
+    color:#e74c3c;
     transition: color .3s ease-in-out;
 }
 
@@ -91,8 +91,8 @@ ul.navbar-nav .nav-item .nav-link:hover{
 .trans-txt-mauve:hover{
     color:#81256f;
 }
-.trans-txt-fuschia:hover{
-    color:#d23778;
+.trans-txt-rouge:hover{
+    color:#e74c3c;
 }
 .trans-txt-jaune:hover{
     color:#f3901b;
@@ -145,18 +145,24 @@ main .btn{
 }
 /* #3871c1 */
 
-.bg-mauve{
+/* new bleu:  #3498db */
+/* new rouge: #e74c3c */
+/* new orange: #e67e22 */
+
+/* .bg-bleu{
     background: #81256f;
     transition: color .3s ease-in-out;
-}
+} */
 
 .bg-bleu{
-    background: #3871c1;
+    background: #3498db;
     transition: color .3s ease-in-out;
 }
 
-.bg-fuschia{
-    background: #d23778;
+
+
+.bg-rouge{
+    background: #e74c3c;
     transition: color .3s ease-in-out;
 }
 
@@ -175,13 +181,13 @@ main .btn{
     color: #fff;
 }
 
-.trans-bg-mauve:hover{
+.trans-bg-bleu:hover{
     background: #81256f;
     color: #fff;
 }
 
-.trans-bg-fuschia:hover{
-    background: #d23778;
+.trans-bg-rouge:hover{
+    background: #e74c3c;
     color: #fff;
 }
 

@@ -4,7 +4,7 @@
         <div class="row  justify-content-center">
             <div class="col-12 col-md-10 col-lg-8">
                 <div>
-                    <h3 class="sub-heading text-center txt-fuschia py-3">Association ADSE</h3>
+                    <h3 class="sub-heading text-center txt-rouge py-3">Association ADSE</h3>
                     <p class="txt txt-mauve text-center fz-24">
                         Mot du President
                     </p>

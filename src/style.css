@@ -61,7 +61,7 @@
     transition: color .3s ease-in-out;
 }
 
-.txt-fuschia{
+.txt-rouge{
     color:#d23778;
     transition: color .3s ease-in-out;
 }
@@ -74,7 +74,7 @@
 .trans-txt-mauve:hover{
     color:#81256f;
 }
-.trans-txt-fuschia:hover{
+.trans-txt-rouge:hover{
     color:#d23778;
 }
 .trans-txt-jaune:hover{
@@ -83,12 +83,12 @@
 
 /* COULEURS ARRIERE PLAN + TRANSITION */
 
-.bg-mauve{
+.bg-bleu{
     background: #81256f;
     transition: color .3s ease-in-out;
 }
 
-.bg-fuschia{
+.bg-rouge{
     background: #d23778;
     transition: color .3s ease-in-out;
 }
@@ -103,12 +103,12 @@
     transition: color .3s ease-in-out;
 }
 
-.trans-bg-mauve:hover{
+.trans-bg-bleu:hover{
     background: #81256f;
     color: #fff;
 }
 
-.trans-bg-fuschia:hover{
+.trans-bg-rouge:hover{
     background: #d23778;
     color: #fff;
 }

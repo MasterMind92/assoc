@@ -39,7 +39,7 @@
 <div id="activity-resume" class="wrapper d-md-none d-lg-block">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-6 col-lg-3 bg-fuschia py-5 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-3 bg-rouge py-5 text-white opacity-05">
                 <a href="<?php echo base_url();?>faites-un-don" class="d-flex justify-content-center">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-heart fz-32"></i></div>
@@ -48,7 +48,7 @@
                 </a>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3 bg-mauve py-5 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-3 bg-bleu py-5 text-white opacity-05">
                 <a href="#" class="d-flex justify-content-center">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-home fz-32"></i></div>
@@ -66,7 +66,7 @@
                 </a>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3 bg-fuschia py-5 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-3 bg-rouge py-5 text-white opacity-05">
                 <a href="<?php echo base_url();?>contact" class="d-flex justify-content-center text-decoration-none">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-envelope fz-32"></i></div>

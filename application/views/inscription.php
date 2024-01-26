@@ -96,14 +96,14 @@
                 </div>
                 <!-- <a class="donate" id="don" href="#" role="button">Faites un don</a> -->
             </div>
-            <div class="envoi_mail bg-mauve" >
+            <div class="envoi_mail bg-bleu" >
                 
                 <span class="fz-24 text-white"><i class="fa fa-phone"></i></span>
                 <div>
                     <a href="#" class="text-white text-center">+225 07 50 50 05 04</a>
                 </div>
             </div>
-            <div class="lieu bg-fuschia" >
+            <div class="lieu bg-rouge" >
                 <span class="fz-24 text-white"><i class="fa fa-envelope"></i></span>
                 <div>
                     <a href="mailto:" class="text-white text-center">contact@assoadse.org</a>

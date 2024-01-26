@@ -74,8 +74,8 @@
 
 #impact{
     height: auto;
-    background: rgb(129,37,111);
-    background: linear-gradient(90deg, rgba(129,37,111,1) 0%, rgba(129,37,111,1) 30%, rgba(210,55,120,1) 100%); 
+    background: rgb(192,57,43);
+    background: linear-gradient(90deg, rgba(192,57,43,1) 8%, rgba(231,76,60,1) 38%, rgba(181,21,4,1) 74%); 
 }
 
 #newsletter{
@@ -84,13 +84,14 @@
 }
 
 #newsletter-2{
-    background: linear-gradient(90deg, rgba(129,37,111,1) 0%, rgba(129,37,111,1) 30%, rgba(210,55,120,1) 100%);
+    background: rgb(192,57,43);
+    background: linear-gradient(90deg, rgba(192,57,43,1) 8%, rgba(231,76,60,1) 38%, rgba(181,21,4,1) 74%); 
     padding: 100px 0px;
 }
 
 #footer{
     padding: 100px 0;
-    background: #382a41;
+    background: #3871c1;
 }
 
 #footer ul.list-unstyled li{

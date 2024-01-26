@@ -16,7 +16,7 @@
                         <div class="col-12">
                             <div id="custom-input">
                                 <input class="input-background" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's text" aria-describedby="my-addon">
-                                <button class="btn bg-mauve text-white" type="button">Souscrire</button>
+                                <button class="btn bg-bleu text-white" type="button">Souscrire</button>
                             </div>
                         </div>
                     </div>

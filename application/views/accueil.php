@@ -9,7 +9,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
                     <div>
-                        <h3 class="sub-heading text-center txt-fuschia py-3">Sub Heading</h3>
+                        <h3 class="sub-heading text-center txt-rouge py-3">Sub Heading</h3>
                         <p class="txt txt-mauve text-center fz-24">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
                         </p>
@@ -21,11 +21,11 @@
             <div class="row justify-content-between">
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h3 class="sub-heading  txt-fuschia py-3">Sub Heading</h3>
+                        <h3 class="sub-heading  txt-rouge py-3">Sub Heading</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptas quia aliquid sapiente, illo saepe ipsam cumque, perferendis cum labore officiis dicta beatae.
                         </p>
-                        <button class="btn button-theme fnt-montserrat bg-mauve trans-bg-fuschia" type="button"> Explore</button>
+                        <button class="btn button-theme fnt-montserrat bg-bleu trans-bg-rouge" type="button"> Explore</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -39,11 +39,11 @@
                 </div>
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h3 class="sub-heading  txt-fuschia py-3">Sub Heading</h3>
+                        <h3 class="sub-heading  txt-rouge py-3">Sub Heading</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptas quia aliquid sapiente, illo saepe ipsam cumque, perferendis cum labore officiis dicta beatae.
                         </p>
-                        <button class="btn button-theme fnt-montserrat bg-fuschia trans-bg-mauve" type="button"> Explore</button>
+                        <button class="btn button-theme fnt-montserrat bg-rouge trans-bg-bleu" type="button"> Explore</button>
                     </div>
                 </div>
                 
@@ -59,7 +59,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
                     <div>
-                        <h3 class="sub-heading text-center txt-fuschia py-3">Sub Heading</h3>
+                        <h3 class="sub-heading text-center txt-rouge py-3">Sub Heading</h3>
                         <p class="txt txt-mauve text-center fz-24">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
                         </p>
@@ -76,7 +76,7 @@
             <!-- ENCART DONS -->
             <div class="row">
                 <div class="col-12 px-0">
-                    <div class="d-flex bg-mauve">
+                    <div class="d-flex bg-bleu">
                         <div id="donation-img-1" class="col-12 col-md-6 col-lg-3 px-0">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation.jpg" alt="">
                         </div>
@@ -86,7 +86,7 @@
                                 <p class="txt text-white text-left fz-18">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
                                 </p>
-                                <button class="btn button-theme fnt-montserrat bg-fuschia trans-bg-mauve" type="button"> Faire un don</button>
+                                <button class="btn button-theme fnt-montserrat bg-rouge trans-bg-bleu" type="button"> Faire un don</button>
                             </div>
                             <div id="counter" class="d-md-none">
                                 <p>counter</p>
@@ -102,13 +102,13 @@
                         <div class="theme-hover">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-2.jpg" alt="">
                         </div>
-                        <div class="bg-mauve p-3 w-100">
+                        <div class="bg-bleu p-3 w-100">
                             <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
                             <div class="d-flex justify-content-between text-white pb-3">
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-rouge text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -119,13 +119,13 @@
                         <div class="theme-hover">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-3.jpg" alt="">
                         </div>
-                        <div class="bg-fuschia p-3 w-100">
+                        <div class="bg-rouge p-3 w-100">
                             <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
                             <div class="d-flex justify-content-between text-white pb-3">
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-rouge text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -142,7 +142,7 @@
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-mauve text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-bleu text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -153,13 +153,13 @@
                         <div class="theme-hover">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-5.jpg" alt="">
                         </div>
-                        <div class="bg-mauve p-3 w-100">
+                        <div class="bg-bleu p-3 w-100">
                             <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
                             <div class="d-flex justify-content-between text-white pb-3">
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-rouge text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -170,13 +170,13 @@
                         <div class="theme-hover">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-2.jpg" alt="">
                         </div>
-                        <div class="bg-fuschia p-3 w-100">
+                        <div class="bg-rouge p-3 w-100">
                             <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
                             <div class="d-flex justify-content-between text-white pb-3">
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-rouge text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -193,7 +193,7 @@
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-rouge text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -204,13 +204,13 @@
                         <div class="theme-hover">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation-4.jpg" alt="">
                         </div>
-                        <div class="bg-mauve p-3 w-100">
+                        <div class="bg-bleu p-3 w-100">
                             <h3 class="mb-3"> <a href="" class="text-white"> Card Title </a> </h3>
                             <div class="d-flex justify-content-between text-white pb-3">
                                 <span class="text-white">Donation</span><span class="text-white">8%</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-fuschia text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-rouge text-white" style="width: 25%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <div class="pt-3 text-white">
                                 <span class="text-white"> 1.500.000 FCFA restant</span>
@@ -225,7 +225,7 @@
 
     <!-- ENCART GRAPHIQUE FULL -->
     <div class="wrapper top-margin">
-        <div class="container-fluid bg-fuschia">
+        <div class="container-fluid bg-rouge">
             <div id="temoignage" class="row">
                 <div class="col-12 d-md-none col-lg-6">
 
@@ -273,7 +273,7 @@
             <div class="row top-padding pb-5 justify-content-center">
                 <div class="col-12">
                     <div>
-                        <h3 class="sub-heading text-center txt-fuschia py-3">Sub Heading</h3>
+                        <h3 class="sub-heading text-center txt-rouge py-3">Sub Heading</h3>
                         <p class="txt txt-mauve text-center fz-24">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
                         </p>

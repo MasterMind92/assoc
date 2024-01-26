@@ -93,14 +93,14 @@
      border-radius: 20px;
      border: none;
      padding: 10px 30px;
-     background-color: rgb(83, 5, 83);
+     background-color: #3498db;
      cursor: pointer;
      transition: all .4s ease-out;
    }
 
    /*le bouton de la barre au survol*/
    .donate:hover {
-      background-color: rgb(217, 92, 112);
+      background-color: #e74c3c;
       color: white;
       text-decoration: none;
    }

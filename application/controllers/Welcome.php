@@ -84,7 +84,7 @@ class Welcome extends CI_Controller {
 		// si la validation ne se passe pas bien
 		if ($this->form_validation->run() == FALSE)
 		{
-			$this->load->view('contact');
+			$this->load->view('contact',['img'=>"/assets/img/subscribe.jpg"]);
 		}
 		// si la validation se passe bien
 		else
@@ -115,7 +115,7 @@ class Welcome extends CI_Controller {
 			}
 
 			// affichage de l'interface
-			$this->load->view('contact');
+			$this->load->view('contact',['img'=>"/assets/img/subscribe.jpg"]);
 		}
 	}
 
