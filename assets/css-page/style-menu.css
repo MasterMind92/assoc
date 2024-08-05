@@ -100,7 +100,6 @@
 
    /*le bouton de la barre au survol*/
    .donate:hover {
-      background-color: #e74c3c;
       color: white;
       text-decoration: none;
    }

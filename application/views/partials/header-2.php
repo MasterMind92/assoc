@@ -1,7 +1,7 @@
 <header id="header" class="wrapper">
 <!-- style="position: absolute;width: 100%;" -->
     <div class="container-fluid">
-        <?php $this->load->view('partials/menu');?>
+        <?php $this->load->view('partials/menu',["page"=>""]);?>
     </div>
 </header>
 <!-- '/assets/img/subscribe.jpg' -->

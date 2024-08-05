@@ -63,7 +63,9 @@ $route['bureau-executif'] = "Welcome/bureau";
 // 	Les membres d'honneur
 $route['membres-d-honneur'] = "Welcome/membres";
 // Que faisons-nous?
-$route['que-faisons-nous'] = "Welcome/propos";
+$route['qui-sommes-nous'] = "Welcome/propos";
+// Que faisons-nous?
+$route['que-faisons-nous'] = "Welcome/about";
 // Nous rejoindre
 $route['nous-rejoindre'] = "Welcome/inscription";
 // Nos Projets

@@ -40,37 +40,56 @@ class Welcome extends CI_Controller {
 	// page Mot du president
 	public function presentation()
 	{
-		$this->load->view('president',['img'=>"/assets/img/subscribe.jpg"]);
+		$this->load->view('president',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
+	}
+
+    // qui sommes nous
+	public function about()
+	{   
+
+		$this->load->view('about_us',['img'=>"/assets/img/subscribe.jpg","page"=>"qui-sommes-nous"]);
+	}
+
+    // que faisons nous
+	public function propos()
+	{
+		$this->load->view('about',['img'=>"/assets/img/subscribe.jpg","page"=>"qui-sommes-nous"]);
 	}
 
 	// page bureau executif
 	public function bureau()
 	{
-		$this->load->view('bureau',['img'=>"/assets/img/subscribe.jpg"]);
+		$this->load->view('bureau',['img'=>"/assets/img/subscribe.jpg","page"=>"bureau-executif"]);
 	}
 
 	// page membres d'honneur
 	public function membres()
 	{
-		$this->load->view('membres',['img'=>"/assets/img/subscribe.jpg"]);
+		$this->load->view('membres',['img'=>"/assets/img/subscribe.jpg","page"=>"membres-d-honneur"]);
 	}
+
+    // page membres d'honneur
+	// public function president()
+	// {
+	// 	$this->load->view('president',['img'=>"/assets/img/subscribe.jpg"]);
+	// }
 
 	// page realisations
 	public function realisations()
 	{
-		$this->load->view('realisations',['img'=>"/assets/img/subscribe.jpg"]);
+		$this->load->view('realisations',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 	}
 
 	// page Calendrier
 	public function calendrier()
 	{
-		$this->load->view('calendrier',['img'=>"/assets/img/subscribe.jpg"]);
+		$this->load->view('calendrier',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 	}
 
 	// page Calendrier
 	public function don()
 	{
-		$this->load->view('don',['img'=>"/assets/img/subscribe.jpg"]);
+		$this->load->view('don',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 	}
 
 	public function mail_template(){
@@ -84,7 +103,7 @@ class Welcome extends CI_Controller {
 		// si la validation ne se passe pas bien
 		if ($this->form_validation->run() == FALSE)
 		{
-			$this->load->view('contact',['img'=>"/assets/img/subscribe.jpg"]);
+			$this->load->view('contact',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 		}
 		// si la validation se passe bien
 		else
@@ -115,16 +134,11 @@ class Welcome extends CI_Controller {
 			}
 
 			// affichage de l'interface
-			$this->load->view('contact',['img'=>"/assets/img/subscribe.jpg"]);
+			$this->load->view('contact',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 		}
 	}
 
-	// que faisons nous
-	public function propos()
-	{
-		$this->load->view('about',['img'=>"/assets/img/subscribe.jpg"]);
-	}
-
+	
 	// nous rejoindre
 	public function inscription()
 	{
@@ -134,7 +148,7 @@ class Welcome extends CI_Controller {
 		 // si la validation ne se passe pas bien
 		if ($this->form_validation->run() == FALSE)
 		{
-			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg"]);
+			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 		}
 		else
 		{	
@@ -159,7 +173,7 @@ class Welcome extends CI_Controller {
 				$this->session->set_flashdata('msg', 'Echec enregistrement utilisateur');
 			}
 
-			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg"]);
+			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 			
 			// si c'est bon on le connecte
 			// page de succes

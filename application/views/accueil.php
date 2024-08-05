@@ -3,47 +3,47 @@
 
 <main id="main-content">
 
-<div class="wrapper">
+    <div class="wrapper">
         <div class="container">
             <!-- ENCART TEXTE UNIQUE -->
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-10">
                     <div>
-                        <h3 class="sub-heading text-center txt-rouge py-3">Sub Heading</h3>
-                        <p class="txt txt-mauve text-center fz-24">
+                        <h3 class="sub-heading text-center txt-orange py-3">Aide au développement socio-économique</h3>
+                        <!-- <p class="txt txt-mauve text-center fz-24">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
 
             <!-- ENCART GRAPHIQUE DOUBLE -->
-            <div class="row justify-content-between">
+            <div class="row justify-content-between mt-5  mb-5">
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h3 class="sub-heading  txt-rouge py-3">Sub Heading</h3>
+                        <h3 class="sub-heading  txt-rouge py-3">Des projets sur-mesure</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptas quia aliquid sapiente, illo saepe ipsam cumque, perferendis cum labore officiis dicta beatae.
+                            Découvrez nos differents projets sur mesure.  
                         </p>
-                        <button class="btn button-theme fnt-montserrat bg-bleu trans-bg-rouge" type="button"> Explore</button>
+                        <a href="https://assoadse.org/realisations"><button class="btn button-theme fnt-montserrat bg-bleu trans-bg-rouge" type="button" >Nos réalisations</button></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div style="padding-bottom: 650px; background: url('assets/img/children1-1.jpg') no-repeat center center/contain;"></div>
+                    <img src="assets/img/enseignant.jpg" alt="" width="100%">
                 </div>
             </div>
 
-            <div class="row justify-content-between" style="position: relative;top: -200px;">
+            <div class="row justify-content-between mb-5">
                 <div class="col-12 col-md-6">
-                    <div style="padding-bottom: 650px; background: url('assets/img/children-2.jpg') no-repeat center center/contain;"></div>
+                    <img src="assets/img/puit.webp" alt="" width="100%">
                 </div>
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h3 class="sub-heading  txt-rouge py-3">Sub Heading</h3>
+                        <h3 class="sub-heading  txt-rouge py-3">Aider: notre sacerdoce</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptas quia aliquid sapiente, illo saepe ipsam cumque, perferendis cum labore officiis dicta beatae.
+                            
                         </p>
-                        <button class="btn button-theme fnt-montserrat bg-rouge trans-bg-bleu" type="button"> Explore</button>
+                        <a href="<?php echo base_url();?>nous-rejoindre" class="btn button-theme fnt-montserrat bg-rouge trans-bg-bleu" type="button"> Nous rejoindre</a>
                     </div>
                 </div>
                 
@@ -53,7 +53,7 @@
     </div>
     <!-- ENCART GRAPHIQUE DONATION -->
 
-    <div class="wrapper">
+    <div class="wrapper d-none">
         <div class="container">
             <!-- ENCART TEXTE UNIQUE -->
             <div class="row justify-content-center">
@@ -224,7 +224,7 @@
     </div>
 
     <!-- ENCART GRAPHIQUE FULL -->
-    <div class="wrapper top-margin">
+    <div class="wrapper top-margin d-none">
         <div class="container-fluid bg-rouge">
             <div id="temoignage" class="row">
                 <div class="col-12 d-md-none col-lg-6">
@@ -267,15 +267,15 @@
     </div>
 
     <!-- ENCART RESUME ARTICLES -->
-    <div class="wrapper">
+    <div class="wrapper" id="article">
         <div class="container">
             <!-- ENCART TEXTE UNIQUE -->
             <div class="row top-padding pb-5 justify-content-center">
                 <div class="col-12">
                     <div>
-                        <h3 class="sub-heading text-center txt-rouge py-3">Sub Heading</h3>
-                        <p class="txt txt-mauve text-center fz-24">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
+                        <h3 class="sub-heading text-center txt-rouge py-3">En savoir plus</h3>
+                        <!-- <p class="txt txt-mauve text-center fz-24">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum! -->
                         </p>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
-                            <h3 class="heading">heading</h3>
+                            <h3 class="heading">Environnement</h3>
                             <h4 class="sub-heading-1">subheading</h4>
                             <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             <a href="#">Read More</a>
@@ -301,7 +301,7 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
-                            <h3 class="heading">heading</h3>
+                            <h3 class="heading">Santé</h3>
                             <h4 class="sub-heading-1">subheading</h4>
                             <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             <a href="#">Read More</a>
@@ -316,7 +316,7 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
-                            <h3 class="heading">heading</h3>
+                            <h3 class="heading">Education</h3>
                             <h4 class="sub-heading-1">subheading</h4>
                             <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             <a href="#">Read More</a>
@@ -330,7 +330,7 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
-                            <h3 class="heading">heading</h3>
+                            <h3 class="heading">Hydraulique</h3>
                             <h4 class="sub-heading-1">subheading</h4>
                             <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             <a href="#">Read More</a>

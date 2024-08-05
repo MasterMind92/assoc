@@ -10,7 +10,7 @@
     /* background: url('img/donation.jpg') no-repeat center center/cover; */
 }
 
-#activity-resume div.container{
+#activity-resume div.container-fluid{
     position: relative;
 }
 #activity-resume a{
@@ -124,7 +124,7 @@
 /* STYLE LOGO */
 
 #logo{
-    width: 200px;
+    width: auto;
 }
 
 #image-secondary .wrapper{

@@ -1,8 +1,7 @@
 <?php $this->load->view('partials/head')?>
-<?php $this->load->view('partials/header-2')?>
+<?php $this->load->view('partials/header-2');?>
 
 <main>
-
     <div class="container">
         <div class="row justify-content-center align-items-center" style="height:50vh">
             <div class="col-12 col-md-10 pt-5">
@@ -116,9 +115,6 @@
                 </div>
             </div>
         </div>
-        
-
-        
     </section>
 </main>
 
