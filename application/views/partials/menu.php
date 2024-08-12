@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-xl navbar-light">
-    <a href="<?php echo base_url();?>" class="navbar-brand">
+    <a href="<?php echo base_url();?>" class="navbar-brand" style="background: #ffff;">
         <img src="<?php echo base_url();?>assets/img/adse_logo.png" id="logo" alt="logo_association">
     </a>
     <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +41,9 @@
             </li>
             <li class="nav-item text-center">
                 <a class="nav-link" href="<?php echo base_url();?>nous-rejoindre">Nous rejoindre</a>
+            </li>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="<?php echo base_url();?>">Archives</a>
             </li>
             
             <li class="nav-item text-center">

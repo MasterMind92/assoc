@@ -9,7 +9,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
                     <div>
-                        <h3 class="sub-heading text-center txt-orange py-3">Aide au développement socio-économique</h3>
+                        <h3 class="sub-heading text-center txt-bleu py-3">Créateurs de valeur depuis 2010</h3>
                         <!-- <p class="txt txt-mauve text-center fz-24">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum!
                         </p> -->
@@ -21,9 +21,10 @@
             <div class="row justify-content-between mt-5  mb-5">
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h3 class="sub-heading  txt-rouge py-3">Des projets sur-mesure</h3>
+                        <h3 class="sub-heading  txt-bleu py-3">Des projets sur-mesure</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
-                            Découvrez nos differents projets sur mesure.  
+                            Une approche inclusive qui consiste, avec l’aide des populations concernées, à définir leurs besoins et les aider à mettre
+                            en place les projets qui les aideront dans leurs développement.
                         </p>
                         <a href="https://assoadse.org/realisations"><button class="btn button-theme fnt-montserrat bg-bleu trans-bg-rouge" type="button" >Nos réalisations</button></a>
                     </div>
@@ -39,11 +40,11 @@
                 </div>
                 <div class="col-12 col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h3 class="sub-heading  txt-rouge py-3">Aider: notre sacerdoce</h3>
+                        <h3 class="sub-heading  txt-jaune py-3">Aider: Notre mission</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
-                            
+                            Vous aussi, contribuez à rendre des vies meilleures. Devenez membre!
                         </p>
-                        <a href="<?php echo base_url();?>nous-rejoindre" class="btn button-theme fnt-montserrat bg-rouge trans-bg-bleu" type="button"> Nous rejoindre</a>
+                        <a href="<?php echo base_url();?>nous-rejoindre" class="btn button-theme fnt-montserrat bg-vert trans-bg-bleu" type="button"> Nous rejoindre</a>
                     </div>
                 </div>
                 
@@ -270,7 +271,7 @@
     <div class="wrapper" id="article">
         <div class="container">
             <!-- ENCART TEXTE UNIQUE -->
-            <div class="row top-padding pb-5 justify-content-center">
+            <div class="row top-padding-1 pb-5 justify-content-center">
                 <div class="col-12">
                     <div>
                         <h3 class="sub-heading text-center txt-rouge py-3">En savoir plus</h3>

@@ -53,7 +53,7 @@
 <div id="activity-resume" class="wrapper d-md-none d-lg-block">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-6 col-lg-2 bg-rouge pt-5 px-2 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-2 bg-vert pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-heart fz-32"></i></div>
@@ -62,34 +62,15 @@
                 </a>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-2 bg-vert pt-5 px-2 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-2  bg-rouge pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-home fz-32"></i></div>
-                        <h3 class="pt-3">Sante</h3>
+                        <h3 class="pt-2">Sante</h3>
                     </div>
                 </a>
             </div>
-
-            <div class="col-12 col-md-6 col-lg-2 bg-jaune pt-5 px-2 text-white opacity-05">
-                <a href="#article" class="d-flex justify-content-center">
-                    <div class="opacity-1">
-                        <div class="text-center"><i class="fa fa-pen fz-32"></i></div>
-                        <h3 class="pt-3">Education</h3>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-2 bg-rouge pt-5 px-2 text-white opacity-05">
-                <a href="#article" class="d-flex justify-content-center text-decoration-none">
-                    <div class="opacity-1">
-                        <div class="text-center"><i class="fa fa-water fz-32"></i></div>
-                        <h3 class="pt-3">Hydraulique</h3>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-2 bg-bleu pt-5 px-2 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-2 bg-bleu pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center text-decoration-none">
                     <div class="opacity-1 text-center">
                         <div class="text-center"><i class="fa fa-dollar fz-32"></i></div>
@@ -97,6 +78,26 @@
                     </div>
                 </a>
             </div>
+
+            <div class="col-12 col-md-6 col-lg-2 bg-jaune pt-2 px-2 text-white opacity-05">
+                <a href="#article" class="d-flex justify-content-center">
+                    <div class="opacity-1">
+                        <div class="text-center"><i class="fa fa-pen fz-32"></i></div>
+                        <h3 class="pt-2">Education</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-2 bg-rouge pt-2 px-2 text-white opacity-05">
+                <a href="#article" class="d-flex justify-content-center text-decoration-none">
+                    <div class="opacity-1">
+                        <div class="text-center"><i class="fa fa-water fz-32"></i></div>
+                        <h3 class="pt-2">Hydraulique</h3>
+                    </div>
+                </a>
+            </div>
+
+            
         </div>
     </div>
 </div>
