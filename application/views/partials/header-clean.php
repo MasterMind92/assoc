@@ -12,28 +12,28 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="<?php echo base_url();?>assets/img/pompe_a_eau.jpg" alt="">
+            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/education/education-1.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="<?php echo base_url();?>assets/img/mere_eft.jpg" alt="">
+            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/hydraulique/hydraulique-2.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="<?php echo base_url();?>assets/img/enseignant.jpg" alt="">
+            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/sante/sante-1.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="<?php echo base_url();?>assets/img/ramassage.jpg" alt="">
+            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/commerce/commerce-1.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->

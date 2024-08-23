@@ -6,7 +6,7 @@
       
          <div class="mb-5 boites b1">
           <div class="row align-items-center">
-            <div class="col-12 col-md-5">
+            <div id="environnement" class="col-12 col-md-5">
                 <img class="" src="https://assoadse.org/assets/img/agriculture.jpg" alt="" width="100%" />
             </div>
             <div class="col-12 col-md-7 align-items-center">
@@ -21,7 +21,7 @@
 
       <div class="mb-5 boites b2">
         <div class="row align-items-center">
-            <div class="col-12 col-md-5">
+            <div id="sante" class="col-12 col-md-5">
                 <img class="" src="https://assoadse.org/assets/img/doctor_2.jpg" alt="" width="100%" />
             </div>
             <div class="col-12 col-md-7 align-items-center">
@@ -42,7 +42,7 @@
 
         <div class="mb-5 boites b3">
             <div class="row align-items-center">
-                <div class="col-12 col-md-5">
+                <div id="education" class="col-12 col-md-5">
                     <img class="" src="https://assoadse.org/assets/img/Education.webp" alt="" width="100%" />
                 </div>
                 <div class="col-12 col-md-7 align-items-center">
@@ -59,12 +59,9 @@
             </div>
 
 
-
-
-
             <div class="mb-5 boites b4">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-5">
+                    <div id="hydraulique" class="col-12 col-md-5">
                         <img class="" src="https://assoadse.org/assets/img/puit.webp" alt="" width="100%" />
                     </div>
                     <div class="col-12 col-md-7 align-items-center">
@@ -80,13 +77,9 @@
         
                 </div>
 
-
-
-
-
                 <div class="mb-5 boites b5">
                     <div class="row align-items-center">
-                        <div class="col-12 col-md-5">
+                        <div id="artisanat" class="col-12 col-md-5">
                             <img class="" src="https://assoadse.org/assets/img/charpenterie.jpg" alt="" width="100%" />
                         </div>
                         <div class="col-12 col-md-7 align-items-center">

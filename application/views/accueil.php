@@ -285,13 +285,13 @@
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">
-                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/environnement/environnement-2.jpeg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
                             <h3 class="heading">Environnement</h3>
-                            <h4 class="sub-heading-1">subheading</h4>
-                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#">Read More</a>
+                            <h4 class="sub-heading-1">Action menée</h4>
+                            <p class="fz-14 fnt-roboto">Decouvrez nos raisons de proteger l'environnement</p>
+                            <a href="<?php echo base_url();?>qui-sommes-nous#environnement">En Savoir Plus</a>
                         </div>
 
                     </div>
@@ -299,13 +299,42 @@
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">
-                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/sante/sante-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
                             <h3 class="heading">Santé</h3>
-                            <h4 class="sub-heading-1">subheading</h4>
-                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#">Read More</a>
+                            <h4 class="sub-heading-1">Action menée</h4>
+                            <p class="fz-14 fnt-roboto">Nous sommes porteurs de projets dans le secteur de la santé.</p>
+                            <a href="<?php echo base_url();?>qui-sommes-nous#sante">En Savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/education/education-1.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                            <h3 class="heading">Education</h3>
+                            <h4 class="sub-heading-1">Action menée</h4>
+                            <p class="fz-14 fnt-roboto">Nous sommes l'alphabétisation des populations en milieu rural.</p>
+                            <a href="<?php echo base_url();?>qui-sommes-nous#education">En Savoir Plus</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/hydraulique/hydraulique-2.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                            <h3 class="heading">Hydraulique</h3>
+                            <h4 class="sub-heading-1">Action menée</h4>
+                            <p class="fz-14 fnt-roboto">Nos projets d'installation de pompes à eau</p>
+                            <a href="<?php echo base_url();?>qui-sommes-nous#hydraulique">En Savoir Plus</a>
                         </div>
                     </div>
                 </div>
@@ -314,28 +343,15 @@
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">
-                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/commerce/artisanat-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-0">
-                            <h3 class="heading">Education</h3>
-                            <h4 class="sub-heading-1">subheading</h4>
-                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#">Read More</a>
+                            <h3 class="heading">Commerce et Artisanat</h3>
+                            <h4 class="sub-heading-1">Action menée</h4>
+                            <p class="fz-14 fnt-roboto">Le développement du commerce et de l'artisanat.</p>
+                            <a href="<?php echo base_url();?>qui-sommes-nous#artisanat">En Savoir Plus</a>
                         </div>
 
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="row">
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/blog-1.jpg" alt="">
-                        </div>
-                        <div class="col-12 col-md-8 col-lg-8 p-0">
-                            <h3 class="heading">Hydraulique</h3>
-                            <h4 class="sub-heading-1">subheading</h4>
-                            <p class="fz-14 fnt-roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#">Read More</a>
-                        </div>
                     </div>
                 </div>
             </div>
