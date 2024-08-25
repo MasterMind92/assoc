@@ -358,7 +358,7 @@
         </div>
     </div>
 
-    <div id="newsletter" class="wrapper">
+    <div id="newsletter" class="wrapper d-none d-md-block">
         <div class="container">
             <div class="row justify-content-center align-content-center">
                 <div class="col-12">3
