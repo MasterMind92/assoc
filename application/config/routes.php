@@ -67,7 +67,7 @@ $route['qui-sommes-nous'] = "Welcome/propos";
 // Que faisons-nous?
 $route['que-faisons-nous'] = "Welcome/about";
 // Nous rejoindre
-$route['nous-rejoindre'] = "Welcome/inscription";
+$route['nous-rejoindre'] = "Welcome/contact";
 // Nos Projets
 // Realisations
 $route['realisations'] = "Welcome/realisations";

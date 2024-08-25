@@ -12,28 +12,28 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/education/education-1.jpg" alt="">
+            <img class="d-block w-100"  src="<?php echo base_url();?>assets/img/education/education-1.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/hydraulique/hydraulique-2.jpg" alt="">
+            <img class="d-block w-100" src="<?php echo base_url();?>assets/img/hydraulique/hydraulique-2.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/sante/sante-1.jpg" alt="">
+            <img class="d-block w-100" src="<?php echo base_url();?>assets/img/sante/sante-1.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" style="height:100vh" src="<?php echo base_url();?>assets/img/commerce/commerce-1.jpg" alt="">
+            <img class="d-block w-100"  src="<?php echo base_url();?>assets/img/commerce/commerce-1.jpg" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Title</h5>
                 <p>Text</p> -->
@@ -50,13 +50,13 @@
     </a>
 </div>
 
-<div id="activity-resume" class="wrapper d-md-none d-lg-block">
+<div id="activity-resume" class="wrapper d-none d-lg-block">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-lg-2 bg-vert pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center">
                     <div class="opacity-1">
-                        <div class="text-center"><i class="fa fa-heart fz-32"></i></div>
+                        <div class="text-center"><i class="fa fa-leaf fz-32"></i></div>
                         <h3 class="pt-3">Environement</h3>
                     </div>
                 </a>
@@ -65,7 +65,7 @@
             <div class="col-12 col-md-6 col-lg-2  bg-rouge pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center">
                     <div class="opacity-1">
-                        <div class="text-center"><i class="fa fa-home fz-32"></i></div>
+                        <div class="text-center"><i class="fa fa-heartbeat fz-32"></i></div>
                         <h3 class="pt-2">Sante</h3>
                     </div>
                 </a>
@@ -82,7 +82,7 @@
             <div class="col-12 col-md-6 col-lg-2 bg-jaune pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center">
                     <div class="opacity-1">
-                        <div class="text-center"><i class="fa fa-pen fz-32"></i></div>
+                        <div class="text-center"><i class="fa fa-graduation-cap fz-32"></i></div>
                         <h3 class="pt-2">Education</h3>
                     </div>
                 </a>
@@ -91,13 +91,11 @@
             <div class="col-12 col-md-6 col-lg-2 bg-rouge pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center text-decoration-none">
                     <div class="opacity-1">
-                        <div class="text-center"><i class="fa fa-water fz-32"></i></div>
+                        <div class="text-center"><i class="fa fa-droplet fz-32"></i></div>
                         <h3 class="pt-2">Hydraulique</h3>
                     </div>
                 </a>
             </div>
-
-            
         </div>
     </div>
 </div>

@@ -18,8 +18,8 @@
             </div>
 
             <!-- ENCART GRAPHIQUE DOUBLE -->
-            <div class="row justify-content-between mt-5  mb-5">
-                <div class="col-12 col-md-6 d-flex">
+            <div class="row justify-content-between  mt-5  mb-5">
+                <div class="col-12 col-md-6 d-flex pb-3 pb-lg-0">
                     <div class="align-self-center">
                         <h3 class="sub-heading  txt-bleu py-3">Des projets sur-mesure</h3>
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
@@ -35,7 +35,7 @@
             </div>
 
             <div class="row justify-content-between mb-5">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 pb-3 pb-lg-0">
                     <img src="assets/img/puit.webp" alt="" width="100%">
                 </div>
                 <div class="col-12 col-md-6 d-flex">
@@ -58,7 +58,7 @@
         <div class="container">
             <!-- ENCART TEXTE UNIQUE -->
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 pb-3 pb-lg-0">
                     <div>
                         <h3 class="sub-heading text-center txt-rouge py-3">Sub Heading</h3>
                         <p class="txt txt-mauve text-center fz-24">
@@ -76,7 +76,7 @@
             
             <!-- ENCART DONS -->
             <div class="row">
-                <div class="col-12 px-0">
+                <div class="col-12 px-0 pb-3 pb-lg-0">
                     <div class="d-flex bg-bleu">
                         <div id="donation-img-1" class="col-12 col-md-6 col-lg-3 px-0">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/donation.jpg" alt="">
@@ -287,7 +287,7 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/environnement/environnement-2.jpeg" alt="">
                         </div>
-                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                        <div class="col-12 col-md-8 col-lg-8 p-lg-0">
                             <h3 class="heading">Environnement</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
                             <p class="fz-14 fnt-roboto">Decouvrez nos raisons de proteger l'environnement</p>
@@ -301,7 +301,7 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/sante/sante-1.jpg" alt="">
                         </div>
-                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                        <div class="col-12 col-md-8 col-lg-8 p-lg-0">
                             <h3 class="heading">Santé</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
                             <p class="fz-14 fnt-roboto">Nous sommes porteurs de projets dans le secteur de la santé.</p>
@@ -316,7 +316,7 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/education/education-1.jpg" alt="">
                         </div>
-                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                        <div class="col-12 col-md-8 col-lg-8 p-lg-0">
                             <h3 class="heading">Education</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
                             <p class="fz-14 fnt-roboto">Nous sommes l'alphabétisation des populations en milieu rural.</p>
@@ -330,7 +330,7 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/hydraulique/hydraulique-2.jpg" alt="">
                         </div>
-                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                        <div class="col-12 col-md-8 col-lg-8 p-lg-0">
                             <h3 class="heading">Hydraulique</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
                             <p class="fz-14 fnt-roboto">Nos projets d'installation de pompes à eau</p>
@@ -345,7 +345,7 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/commerce/artisanat-1.jpg" alt="">
                         </div>
-                        <div class="col-12 col-md-8 col-lg-8 p-0">
+                        <div class="col-12 col-md-8 col-lg-8 p-lg-0">
                             <h3 class="heading">Commerce et Artisanat</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
                             <p class="fz-14 fnt-roboto">Le développement du commerce et de l'artisanat.</p>

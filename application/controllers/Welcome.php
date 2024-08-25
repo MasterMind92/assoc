@@ -140,46 +140,46 @@ class Welcome extends CI_Controller {
 
 	
 	// nous rejoindre
-	public function inscription()
-	{
+	// public function inscription()
+	// {
 
-		$this->inscription_validation_request();
+	// 	$this->inscription_validation_request();
 
-		 // si la validation ne se passe pas bien
-		if ($this->form_validation->run() == FALSE)
-		{
-			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
-		}
-		else
-		{	
-			// si la validation se passe bien
-			//enregistrement des variable
-			$data = [
-				'nom' => $this->input->post('nom'),
-				'prenoms' => $this->input->post('prenoms'),
-				'email' => $this->input->post('email'),
-				'adresse' => $this->input->post('adresse'),
-				'telephone' => $this->input->post('phone'),
-				'date_nais' => $this->input->post('date_nais'),
-			];
+	// 	 // si la validation ne se passe pas bien
+	// 	if ($this->form_validation->run() == FALSE)
+	// 	{
+	// 		$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
+	// 	}
+	// 	else
+	// 	{	
+	// 		// si la validation se passe bien
+	// 		//enregistrement des variable
+	// 		$data = [
+	// 			'nom' => $this->input->post('nom'),
+	// 			'prenoms' => $this->input->post('prenoms'),
+	// 			'email' => $this->input->post('email'),
+	// 			'adresse' => $this->input->post('adresse'),
+	// 			'telephone' => $this->input->post('phone'),
+	// 			'date_nais' => $this->input->post('date_nais'),
+	// 		];
 
-			// Exécution de la methode d'insertion
-			$add_response = $this->user->add_inscription($data);
+	// 		// Exécution de la methode d'insertion
+	// 		$add_response = $this->user->add_inscription($data);
 
-			// Mise en place du message
-			if ($add_response != NULL) {
-				$this->session->set_flashdata('msg', 'Infos utilisateur enregistré avec succès');
-			} else {
-				$this->session->set_flashdata('msg', 'Echec enregistrement utilisateur');
-			}
+	// 		// Mise en place du message
+	// 		if ($add_response != NULL) {
+	// 			$this->session->set_flashdata('msg', 'Infos utilisateur enregistré avec succès');
+	// 		} else {
+	// 			$this->session->set_flashdata('msg', 'Echec enregistrement utilisateur');
+	// 		}
 
-			$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
+	// 		$this->load->view('inscription',['img'=>"/assets/img/subscribe.jpg","page"=>""]);
 			
-			// si c'est bon on le connecte
-			// page de succes
-			// $this->load->view('formsuccess');
-		}
-	}
+	// 		// si c'est bon on le connecte
+	// 		// page de succes
+	// 		// $this->load->view('formsuccess');
+	// 	}
+	// }
 
 	public function contact_form_validation_request()
 	{

@@ -3,7 +3,7 @@
 
 <main>
     <div class="container">
-        <div class="row justify-content-center align-items-center" style="height:50vh">
+        <div class="row justify-content-center align-items-center" >
             <div class="col-12 col-md-10 pt-5">
                 <?php if( $this->session->flashdata('msg')):?>
                 <div class="alert alert-info text-center" role="alert">

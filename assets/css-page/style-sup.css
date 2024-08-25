@@ -26,18 +26,24 @@
 }
 
 /*  */
+/* style="" */
 
 @media screen and (min-width:1140px)  {
     #header{
         position: absolute;
         width: 100%;
     }
+    #landing-carousel div.carousel-item > img{
+        height:100vh;
+    }
 }
 
 @media screen and (max-width:1139px) {
+
+    
     #header{
        position: relative;
-        background: #81256f;
+        background: #3498db;
     }
 
     #header .nav-link{
@@ -46,7 +52,7 @@
 
     button.navbar-toggler{
         color: #fff;
-        background-color: #d23778;
+        background-color: #fff;
     }
 
     button.navbar-toggler > span.navabar-toggler-icon{
