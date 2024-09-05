@@ -26,7 +26,7 @@
                             Une approche inclusive qui consiste, avec l’aide des populations concernées, à définir leurs besoins et les aider à mettre
                             en place les projets qui les aideront dans leurs développement.
                         </p>
-                        <a href="https://assoadse.org/realisations"><button class="btn button-theme fnt-montserrat bg-bleu trans-bg-rouge" type="button" >Nos réalisations</button></a>
+                        <a href="https://assoadse.org/realisations"><button class="btn button-theme fnt-montserrat bg-vert trans-bg-rouge" type="button" >Nos réalisations</button></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -44,7 +44,7 @@
                         <p class="txt fnt-roboto fnt-w-300 fz-16">
                             Vous aussi, contribuez à rendre des vies meilleures. Devenez membre!
                         </p>
-                        <a href="<?php echo base_url();?>nous-rejoindre" class="btn button-theme fnt-montserrat bg-vert trans-bg-bleu" type="button"> Nous rejoindre</a>
+                        <a href="<?php echo base_url();?>nous-rejoindre" class="btn button-theme fnt-montserrat bg-rouge trans-bg-bleu" type="button"> Nous rejoindre</a>
                     </div>
                 </div>
                 
@@ -274,7 +274,7 @@
             <div class="row top-padding-1 pb-5 justify-content-center">
                 <div class="col-12">
                     <div>
-                        <h3 class="sub-heading text-center txt-rouge py-3">En savoir plus</h3>
+                        <h3 class="sub-heading text-center txt-bleu">En savoir plus</h3>
                         <!-- <p class="txt txt-mauve text-center fz-24">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nostrum! -->
                         </p>
@@ -288,9 +288,12 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/environnement/environnement-2.jpeg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-lg-0">
-                            <h3 class="heading">Environnement</h3>
+                            <h3 class="heading txt-vert">Environnement</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
-                            <p class="fz-14 fnt-roboto">Decouvrez nos raisons de proteger l'environnement</p>
+                            <p class="fz-14 fnt-roboto">
+                                Participer activement à la protection de notre environnement au travers d’actions terrain (reboisement, assainissement, etc…) mais
+                                aussi de formations et d’éducation civique.
+                            </p>
                             <a href="<?php echo base_url();?>qui-sommes-nous#environnement">En Savoir Plus</a>
                         </div>
 
@@ -302,9 +305,13 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/sante/sante-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-lg-0">
-                            <h3 class="heading">Santé</h3>
+                            <h3 class="heading txt-rouge">Santé</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
-                            <p class="fz-14 fnt-roboto">Nous sommes porteurs de projets dans le secteur de la santé.</p>
+                            <p class="fz-14 fnt-roboto">
+                                Faciliter l’accès à des soins de qualité
+                                spécialement des les zones rurales et sensibiliser les populations sur les bonnes pratiques et
+                                habitudes mais également celles à changer ou proscrire
+                            </p>
                             <a href="<?php echo base_url();?>qui-sommes-nous#sante">En Savoir Plus</a>
                         </div>
                     </div>
@@ -317,9 +324,13 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/education/education-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-lg-0">
-                            <h3 class="heading">Education</h3>
+                            <h3 class="heading txt-jaune">Education</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
-                            <p class="fz-14 fnt-roboto">Nous sommes l'alphabétisation des populations en milieu rural.</p>
+                            <p class="fz-14 fnt-roboto">
+                                Permettre l’accès à l ‘éducation même dans
+                                les zones les plus reculées, organiser des campagnes d’alphabétisation pour la réinsertion
+                                des jeunes 
+                            </p>
                             <a href="<?php echo base_url();?>qui-sommes-nous#education">En Savoir Plus</a>
                         </div>
 
@@ -331,9 +342,14 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/hydraulique/hydraulique-2.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-lg-0">
-                            <h3 class="heading">Hydraulique</h3>
+                            <h3 class="heading txt-bleu">Hydraulique</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
-                            <p class="fz-14 fnt-roboto">Nos projets d'installation de pompes à eau</p>
+                            <p class="fz-14 fnt-roboto">
+                                Aider les zones enclavées ou non encore
+                                desservies en eau potable via l’installation de pompes, éduquer les populations à une
+                                utilisation responsable des ressources en eau potable et à la protection des nappes
+                                phréatiques 
+                            </p>
                             <a href="<?php echo base_url();?>qui-sommes-nous#hydraulique">En Savoir Plus</a>
                         </div>
                     </div>
@@ -346,9 +362,11 @@
                             <img class="img-fluid" src="<?php echo base_url();?>assets/img/commerce/artisanat-1.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-8 col-lg-8 p-lg-0">
-                            <h3 class="heading">Commerce et Artisanat</h3>
+                            <h3 class="heading txt-orange">Commerce et Artisanat</h3>
                             <h4 class="sub-heading-1">Action menée</h4>
-                            <p class="fz-14 fnt-roboto">Le développement du commerce et de l'artisanat.</p>
+                            <p class="fz-14 fnt-roboto">
+                                Agir en faveur de l’autonomisation des femmes, éduquer et accompagner les jeunes en autoentrepreneunariat, aider à la promotion des artisans locaux.
+                            </p>
                             <a href="<?php echo base_url();?>qui-sommes-nous#artisanat">En Savoir Plus</a>
                         </div>
 

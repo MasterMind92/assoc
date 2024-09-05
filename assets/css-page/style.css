@@ -107,6 +107,11 @@ ul.navbar-nav .nav-item .nav-link:hover{
     transition: color .3s ease-in-out;
 }
 
+.txt-vert{
+    color: #2ecc71;
+    transition: color .3s ease-in-out;
+}
+
 .trans-txt-mauve:hover{
     color:#81256f;
 }

@@ -38,8 +38,6 @@
 
         </div>
 
-
-
         <div class="mb-5 boites b3">
             <div class="row align-items-center">
                 <div id="education" class="col-12 col-md-5">
@@ -58,7 +56,6 @@
     
             </div>
 
-
             <div class="mb-5 boites b4">
                 <div class="row align-items-center">
                     <div id="hydraulique" class="col-12 col-md-5">
@@ -74,7 +71,6 @@
                         </ul>
                         </div>
                     </div>
-        
                 </div>
 
                 <div class="mb-5 boites b5">

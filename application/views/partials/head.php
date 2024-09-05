@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
     <?php $this->load->view('partials/css_include');?>
-    <title>Title</title>
+    <title>Association ADSE</title>
 </head>
 
 <body>

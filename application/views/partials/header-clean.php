@@ -57,7 +57,7 @@
                 <a href="#article" class="d-flex justify-content-center">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-leaf fz-32"></i></div>
-                        <h3 class="pt-3">Environement</h3>
+                        <h3 class="pt-3">Environnement</h3>
                     </div>
                 </a>
             </div>
@@ -70,7 +70,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-md-6 col-lg-2 bg-bleu pt-2 px-2 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-2 bg-orange pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center text-decoration-none">
                     <div class="opacity-1 text-center">
                         <div class="text-center"><i class="fa fa-dollar fz-32"></i></div>
@@ -88,7 +88,7 @@
                 </a>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-2 bg-rouge pt-2 px-2 text-white opacity-05">
+            <div class="col-12 col-md-6 col-lg-2 bg-bleu pt-2 px-2 text-white opacity-05">
                 <a href="#article" class="d-flex justify-content-center text-decoration-none">
                     <div class="opacity-1">
                         <div class="text-center"><i class="fa fa-droplet fz-32"></i></div>
