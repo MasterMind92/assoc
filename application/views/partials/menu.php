@@ -43,7 +43,15 @@
                 <a class="nav-link" href="<?php echo base_url();?>nous-rejoindre">Nous rejoindre</a>
             </li>
             <li class="nav-item text-center">
-                <a class="nav-link" href="<?php echo base_url();?>">Archives</a>
+                <!-- <a class="nav-link" href="<?php #echo base_url();?>">Archives</a> -->
+                <div class="dropdown">
+                    <a  id="dropdown-3" class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Archives</a>
+                    <!-- <button  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Text</button> -->
+                    <div class="dropdown-menu" aria-labelledby="dropdown-3">
+                        <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-statuts.pdf" download title="Télécharger les statuts de l'association">Status</a>
+                        <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-reglement-interieur.pdf" download title="Télécharger le règlement intérieur" >Calendrier</a>
+                    </div>
+                </div>
             </li>
             
             <li class="nav-item text-center">
