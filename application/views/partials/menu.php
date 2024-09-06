@@ -58,7 +58,7 @@
                 <a class="nav-link" href="<?php echo base_url();?>contact">Contact</a>
             </li>
             <li class="nav-item text-center">
-                <!-- <a class="donate d-block d-lg-none d-xl-block disabled"  id="don" href="<?php echo base_url();?>faites-un-don" role="button">Faites un don</a> -->
+                <!-- <a class="donate d-block d-lg-none d-xl-block disabled"  id="don" href="<?php #echo base_url();?>faites-un-don" role="button">Faites un don</a> -->
                 <!-- <a class="donate d-block d-lg-none d-xl-block disabled"  id="don" href="#" role="button">Faites un don</a> -->
 
                 <!-- <button class="donate" id="don" type="" name=""></button> -->
