@@ -48,8 +48,9 @@
                     <a  id="dropdown-3" class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Archives</a>
                     <!-- <button  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Text</button> -->
                     <div class="dropdown-menu" aria-labelledby="dropdown-3">
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-statuts.pdf" download title="Télécharger les statuts de l'association">Status</a>
-                        <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-reglement-interieur.pdf" download title="Télécharger le règlement intérieur" >Calendrier</a>
+                        <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-statuts.pdf" download title="Télécharger les statuts de l'association">Statuts ADSE</a>
+                        <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-reglement-interieur.pdf" download title="Télécharger le règlement intérieur" > Reglement Intérieur</a>
+                        <!-- <a class="dropdown-item" href="<?php echo base_url();?>assets/docs/adse-reglement-interieur.pdf" download title="Télécharger le règlement intérieur" > Reglement Intérieur</a> -->
                     </div>
                 </div>
             </li>
