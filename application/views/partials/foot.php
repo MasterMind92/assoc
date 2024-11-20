@@ -1,4 +1,4 @@
-    <?php $this->load->view('partials/js_include');?>
-</body>
-
+    <?php $this->load->view('partials/js_include');?>
+</body>
+
 </html>

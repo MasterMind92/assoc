@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1 class="mb-4">Réalisations</h1>
-                <img src="<?php echo base_url()?>assets/img/hydraulique/hydraulique-2.jpg" alt="Projet d'Assainissement" class="img-fluid rounded mb-4">
+                <img src="https://via.placeholder.com/800x400" alt="Projet d'Assainissement" class="img-fluid rounded mb-4">
                 
             </div>
         </div>

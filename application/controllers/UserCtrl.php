@@ -128,7 +128,7 @@ class UserCtrl extends CI_Controller {
 	}
 
 	// vue d'import utilisateur
-	public function import() {
+	public function import() : void {
 		$config['upload_path']          = './uploads/';
 		$config['allowed_types']        = 'gif|jpg|png';
 		$config['max_size']             = 100;
@@ -282,7 +282,6 @@ class UserCtrl extends CI_Controller {
 				'min_length'=> 'le champ %s doit contenir plus de 3 caractères',
 			)
 		);
-		
 
 		// email validation
 		$this->form_validation->set_rules('email', 'Email', 'required|valid_email|differs[login]',
